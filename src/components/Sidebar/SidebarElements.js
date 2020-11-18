@@ -7,10 +7,10 @@ export const SidebarContainer = styled.aside`
     position: fixed;
     z-index: 999;
     width: 100%;
-    /* height: 100%; */
+    height: 100%;
     background: #fff;
-    display: grid;
-    /* align-items: center; */
+    /* display: grid; */
+    align-items: center;
     top: 0;
     left: 0;
     transition: 0.3s ease-in-out;
@@ -24,8 +24,8 @@ export const SidebarLogo = styled(LinkRouter) `
     font-size: 2.8rem;
     display: flex;
     align-items: center;
-    margin-top: 3.2rem;
-    margin-left: 3.2rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
     background-color: transparent;
 `;
 
@@ -36,8 +36,8 @@ export const CloseIcon = styled(VscChromeClose) `
 
 export const Icon = styled.div`
     position: absolute;
-    top: 3.2rem;
-    right: 3.2rem;
+    top: 2rem;
+    right: 2rem;
     background: transparent;
     font-size: 3.2rem;
     cursor: pointer;
@@ -52,7 +52,7 @@ export const SidebarMenu = styled.ul`
     display: grid;
     background: #fff;
     grid-template-column: 1fr;
-    grid-template-rows: repeat(4, 8rem);
+    grid-template-rows: repeat(4, 10rem);
     text-align: center;
 
     @media screen and (max-width: 480px) {

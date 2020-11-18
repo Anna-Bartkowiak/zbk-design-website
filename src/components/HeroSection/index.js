@@ -1,15 +1,45 @@
-import React from 'react';
+import React, { useState } from 'react';
 import images from '../../images/flat_35m_img1.jpg';
-import { HeroContainer, HeroText } from './HeroElements';
+import { Button } from '../ButtonElement';
+import {
+    HeroContainer,
+    HeroBackground,
+    HeroText,
+    HeroH1,
+    HeroSpan,
+    HeroBtnWrapper,
+    ArrowRight
+} from './HeroElements';
 
 const HeroSection = () => {
+    const [hover, setHover] = useState(false);
+
+    const onHover = () => {
+        setHover(!hover);
+    };
+
     return (
         <HeroContainer id="home">
-            <HeroText>
-                <h1>
-                    <span>projekty <br />wnętrz z <br />duszą</span>
-                </h1>
-            </HeroText>
+            <HeroBackground>
+                <HeroText>
+                    <HeroH1>
+                        <HeroSpan>projekty <br />wnętrz z <br />duszą</HeroSpan>
+                    </HeroH1>
+                </HeroText>
+                <HeroBtnWrapper>
+                    <Button
+                        to='/'
+                        onMouseEnter={onHover}
+                        onMouseLeave={onHover}
+                        primary="true"
+                        bigger="true"
+                        fontBigger="true">
+                        Przemyślane i uzytkowe projekty
+                        <ArrowRight />
+                    </Button>
+                </HeroBtnWrapper>
+            </HeroBackground>
+
         </HeroContainer>
     )
 }

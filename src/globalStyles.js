@@ -5,7 +5,8 @@ const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
         margin: 0;
         padding: 0;
-        font-family: 'Unica One', sans-serif;
+        font-family: 'Unica One', 'Oswald', sans-serif;
+        font-weight: 400;
         background-color: #f6f6f6;
         color: #6d6d6d;
     }
