@@ -67,7 +67,6 @@ export const NavItem = styled.li`
     height: 80px;
 `
 
-
 export const NavLinks = styled(LinkScroll) `
     color: #6D6D6D;
     display: flex;
@@ -86,27 +85,8 @@ export const NavLinks = styled(LinkScroll) `
         color: #2B2220;
         transition: 0.2s ease-in-out;
     }
-
-    /* &:after {
-        position: absolute;
-        transition: .3s;
-        content: '';
-        width: 0;
-        right: 0;
-        left: auto;
-        bottom: 0;
-        height: 1px;
-        background: $color-grey-dark;
-    }
-
-    &:hover {
-
-        &:after {
-            width: 100%;
-            left: 0;
-        }
-    } */
 `;
+
 export const NavBtn = styled.nav`
     display: flex;
     align-items: center;
@@ -115,6 +95,7 @@ export const NavBtn = styled.nav`
         display: none;
     }
 `;
+
 export const NavBtnLink = styled(LinkRouter) `
     /*   border-bottom: 1px solid #6d6d6d; */
     border-radius: 50px;
