@@ -5,7 +5,7 @@ import { SidebarContainer, SidebarLogo, CloseSidebarLogo, Icon, CloseIcon, Sideb
 const Sidebar = ({ isOpen, toggle }) => {
     return (
         <SidebarContainer isOpen={isOpen} onClick={toggle}>
-            <SidebarLogo to='/'>
+            <SidebarLogo to='home'>
                 ZBK DESIGN
             </SidebarLogo>
             <Icon onClick={toggle}>

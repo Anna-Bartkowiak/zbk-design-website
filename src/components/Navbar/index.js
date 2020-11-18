@@ -17,7 +17,7 @@ export const Navbar = ({ toggle }) => {
         <>
             <Nav>
                 <NavbarContainer>
-                    <NavLogo to='/'>ZBK DESIGN</NavLogo>
+                    <NavLogo to='home'>ZBK DESIGN</NavLogo>
                     <MobileIcon onClick={toggle}>
                         <BiMenuAltRight />
                     </MobileIcon>

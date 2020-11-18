@@ -28,12 +28,12 @@ const HeroSection = () => {
                 </HeroText>
                 <HeroBtnWrapper>
                     <Button
-                        to='/'
+                        to='project'
                         onMouseEnter={onHover}
                         onMouseLeave={onHover}
                         primary="true"
                         bigger="true"
-                        fontBigger="true">
+                        fontbigger="true">
                         Przemyślane i uzytkowe projekty
                         <ArrowRight />
                     </Button>

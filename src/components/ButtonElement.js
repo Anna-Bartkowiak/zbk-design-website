@@ -9,7 +9,7 @@ export const Button = styled(Link) `
     white-space: no-wrap;
     padding: ${({ bigger }) => (bigger ? '1.4rem 2.2rem' : '0.8rem 1rem')};
     color: #fff;
-    font-size: ${({ fontBigger }) => (fontBigger ? '1.9rem' : '1.7rem')};
+    font-size: ${({ fontbigger }) => (fontbigger ? '1.9rem' : '1.7rem')};
     font-family: 'Oswald';
     font-weight: 300;
     outline: none;

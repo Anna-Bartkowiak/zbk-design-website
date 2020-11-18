@@ -34,7 +34,8 @@ export const NavLogo = styled(LinkRouter) `
     font-size: 2.8rem;
     display: flex;
     align-items: center;
-    margin-left: 24px;
+    margin-left: 2.4rem;
+    img: require('../../images/zbk_design_logo_horizontal_copy.png');
 `;
 export const MobileIcon = styled.div`
     display: none;
