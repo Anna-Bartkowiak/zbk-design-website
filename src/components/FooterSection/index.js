@@ -24,6 +24,38 @@ export const Footer = () => {
         setHover(!hover);
     };
 
+    const initialState = {
+        name: '',
+        phone: '',
+        email: '',
+        message: ''
+    };
+
+    const [state, setState] = useState(initialState);
+    const [error, setError] = useState('');
+
+    const handleSubmit = e => {
+        e.preventDefault();
+        console.log("submitted");
+        console.log(state);
+
+        for (let key in state) {
+            if (state[key] === '') {
+                setError(`Wpisz ${key}`)
+                return
+            }
+        }
+        setError('');
+    };
+
+    const handleInput = e => {
+        const inputName = e.currentTarget.name;
+        const value = e.currentTarget.value;
+
+        setState(prev => ({ ...prev, [inputName]: value }));
+
+    };
+
     return (
         <FooterContainer>
             <FooterWrapper>
@@ -36,23 +68,43 @@ export const Footer = () => {
                     <FooterP>70-440 Szczecin</FooterP>
                 </FooterContact>
 
-                <FooterForm>
+                <FooterForm onSubmit={handleSubmit}>
                     <FooterH1>napisz do nas</FooterH1>
                     <FooterInputs>
                         <FooterLabel htmlFor="name">Imię i nazwisko</FooterLabel>
-                        <FooterInput type="text" name="name"></FooterInput>
+                        <FooterInput
+                            type="text"
+                            name="name"
+                            value={state.name}
+                            onChange={handleInput}
+                        />
 
                         <FooterLabel htmlFor="phone">Telefon</FooterLabel>
-                        <FooterInput type="number" name="phone"></FooterInput>
+                        <FooterInput
+                            type="number"
+                            name="phone"
+                            value={state.phone}
+                            onChange={handleInput}
+                        />
 
-                        <FooterLabel htmlFor="e-mail">E-mail</FooterLabel>
-                        <FooterInput type="text" name="e-mail"></FooterInput>
+                        <FooterLabel htmlFor="email">E-mail</FooterLabel>
+                        <FooterInput
+                            type="email"
+                            name="email"
+                            value={state.email}
+                            onChange={handleInput}
+                        />
 
                         <FooterLabel htmlFor="message">Twoja wiadomość</FooterLabel>
-                        <FooterInputTextarea type="textarea" name="message"></FooterInputTextarea>
+                        <FooterInputTextarea
+                            type="textarea"
+                            name="message"
+                            value={state.message}
+                            onChange={handleInput}
+                        />
 
                         <FooterError>
-                            <FooterErrorP>Error message</FooterErrorP>
+                            <FooterErrorP value={state.error} onChange={e => setError(e.target.value)}></FooterErrorP>
                         </FooterError>
                     </FooterInputs>
 

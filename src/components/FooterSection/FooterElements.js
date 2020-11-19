@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+// import { Link } from 'react-router-dom;'
 
 export const FooterContainer = styled.div`
     height: 50rem;
@@ -51,9 +52,7 @@ export const FooterH1 = styled.h1`
     font-weight: 400;
 `
 
-export const FooterP = styled.p`
-    
-`
+export const FooterP = styled.p``
 
 export const FooterForm = styled.form`
     width: 100%;
@@ -78,20 +77,20 @@ export const FooterLabel = styled.label`
 
 export const FooterInput = styled.input`
     width: 25rem;
-    font-size: 2rem;
+    padding: 0.5rem;
+    font-size: 1.6rem;
+    font-family: 'Oswald', cursive;
 `
 
 export const FooterInputTextarea = styled.textarea`
-    
+    height: 10rem;
 `
 
 export const FooterError = styled.div`
     margin-top: 1.6rem;
 `
 
-export const FooterErrorP = styled.div`
-    
-`
+export const FooterErrorP = styled.div``
 
 export const FooterBtnWrapper = styled.div`
     margin-top: 1.6rem;
