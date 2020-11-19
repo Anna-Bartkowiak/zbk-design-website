@@ -5,6 +5,7 @@ import Sidebar from '../components/Sidebar';
 import HeroSection from '../components/HeroSection';
 import PricingSection from '../components/PricingSection';
 import Result from '../components/ResultSection';
+import Footer from '../components/FooterSection';
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -21,6 +22,7 @@ const Home = () => {
             <HeroSection />
             <PricingSection />
             <Result />
+            <Footer />
         </>
     );
 };

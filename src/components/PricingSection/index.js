@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// import images from '../../images/flat_35m_img1.jpg';
 import { Button } from '../ButtonElement';
 import {
     PricingContainer,
@@ -8,6 +7,7 @@ import {
     PricingH2,
     PricingBtnWrapper
 } from './PricingElements';
+
 
 const PricingSection = () => {
     const [hover, setHover] = useState(false);
@@ -26,7 +26,7 @@ const PricingSection = () => {
                 </PricingText>
                 <PricingBtnWrapper>
                     <Button
-                        to='/'
+                        to='calculating'
                         onMouseEnter={onHover}
                         onMouseLeave={onHover}
                         primary="true"

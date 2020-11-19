@@ -7,11 +7,11 @@ export const ResultContainer = styled.div`
     justify-content: center;
     align-items: center;
 
-    @media screen and (max-width: 1200px) {
+    @media screen and (max-width: 1000px) {
         height: 80rem;
     }
 
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 768px) {
         height: 100rem;
     }
 `
@@ -20,14 +20,10 @@ export const ResultWrapper = styled.div`
     max-width: 130rem;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     grid-gap: 1.6rem;
     padding: 0 5rem;
-
-    @media screen and (max-width: 1200px) {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
 
     @media screen and (max-width: 1000px) {
         grid-template-columns: 1fr 1fr;
@@ -63,20 +59,17 @@ export const ResultH1 = styled.h1`
     font-weight: 400;
     color: #2B2220;
     margin-bottom: 0.6rem;
-    background: #fff;
 `
 
 export const ResultP = styled.p`
     font-size: 1.6rem;
     font-family: 'Oswald';
     font-weight: 700;
-    background: #fff;
 `
 
 export const ResultSpan = styled.span`
     font-size: 3rem;
     line-height: 4.4rem;
-    background: #fff;
 `
 
 export const ResultP1 = styled.p`
@@ -85,7 +78,6 @@ export const ResultP1 = styled.p`
     font-family: 'Oswald';
     font-weight: 300;
     color: #6d6d6d;
-    background: #fff;
 `
 
 export const ResultP2 = styled.p`
@@ -96,7 +88,6 @@ export const ResultP2 = styled.p`
     font-family: 'Oswald';
     font-weight: 400;
     color: #6d6d6d;
-    background: #fff;
 `
 
 export const ResultLinkWrapper = styled.div`
@@ -106,7 +97,6 @@ export const ResultLinkWrapper = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #fff;
 `
 
 export const ResultLinks = styled.a`
@@ -117,8 +107,7 @@ export const ResultLinks = styled.a`
     font-weight: 300;
     display: flex;
     align-items: center;
-    text-decoration: none;
+    /* text-decoration: none; */
     height: 100%;
     cursor: pointer;
-    background: #fff;
 `

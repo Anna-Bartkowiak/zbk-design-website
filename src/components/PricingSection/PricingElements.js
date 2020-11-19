@@ -33,6 +33,7 @@ export const PricingText = styled.div`
     padding: 1.2rem 2rem;
     text-align: center;
     margin-top: -5.5%;
+    background-color: #f6f6f6;
     
     @media screen and (max-width: 480px) {
         margin-top: -17%;
@@ -61,7 +62,7 @@ export const PricingBtnWrapper = styled.div`
     padding: 2.7rem 2rem;
     text-align: center;
     margin-bottom: -4%;
-    /* background: #fff; */
+    background-color: #f6f6f6;
     margin-top: 2rem;
     display: flex;
     flex-direction: column;

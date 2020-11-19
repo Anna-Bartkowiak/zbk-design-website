@@ -22,8 +22,8 @@ export const HeroBackground = styled.div`
     @media screen and (max-width: 480px) {
         margin: 0;
         padding: 0;
-        width: 85%;
-        /* overflow: hidden; */
+        width: 100%;
+        background-position: top left -13%;
     }
 `
 
@@ -37,7 +37,6 @@ export const HeroH1 = styled.h1`
     left: 7%;
     line-height: 7.5rem;
     font-size: 5.8rem;
-    background: transparent;
     margin-bottom: 0;
     z-index: 1;
 
@@ -52,6 +51,7 @@ export const HeroH1 = styled.h1`
 export const HeroSpan = styled.span`
     padding: 0 1rem;
     box-decoration-break: clone;
+    background-color: #f6f6f6;
 `
 export const HeroBtnWrapper = styled.div`
     position: absolute;
