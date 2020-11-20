@@ -57,7 +57,7 @@ export const Footer = () => {
     };
 
     return (
-        <FooterContainer>
+        <FooterContainer id="contact">
             <FooterWrapper>
                 <FooterContact>
                     <FooterH1>kontakt</FooterH1>

@@ -4,8 +4,10 @@ import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
 import HeroSection from '../components/HeroSection';
 import PricingSection from '../components/PricingSection';
+import CalculatingSection from '../components/CalculatingSection';
 import Result from '../components/ResultSection';
 import Footer from '../components/FooterSection';
+
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -21,6 +23,7 @@ const Home = () => {
             <Navbar toggle={toggle} />
             <HeroSection />
             <PricingSection />
+            <CalculatingSection />
             <Result />
             <Footer />
         </>

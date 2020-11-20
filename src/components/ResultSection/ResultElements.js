@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ResultContainer = styled.div`
-    height: 50rem;
+    height: 70rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,7 +12,7 @@ export const ResultContainer = styled.div`
     }
 
     @media screen and (max-width: 768px) {
-        height: 100rem;
+        height: 110rem;
     }
 `
 
