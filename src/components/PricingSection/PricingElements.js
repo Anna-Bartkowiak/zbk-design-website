@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link as LinkRouter } from 'react-router-dom';
 import images from '../../images/img_calculate.jpg';
 import images1 from '../../images/wycena_hp1.jpg';
 
@@ -53,11 +54,7 @@ export const PricingH2 = styled.h2`
     }
 `
 
-// export const PricingSpan = styled.span`
-//     padding: 0 1rem;
-//     box-decoration-break: clone;
-// `
-export const PricingBtnWrapper = styled.div`
+export const PricingBtnWrapper = styled(LinkRouter) `
     width: 64.3rem;
     padding: 2.7rem 2rem;
     text-align: center;

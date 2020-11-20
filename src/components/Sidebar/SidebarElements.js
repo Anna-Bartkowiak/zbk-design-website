@@ -80,3 +80,35 @@ export const SidebarLink = styled(LinkScroll) `
         transition: 0.2s ease-in-out;
     }
 `;
+
+export const SideBtnWrap = styled.div`
+    display: flex;
+    justify-content: center;
+`
+
+export const SidebarRoute = styled(LinkRouter) `
+    background: ${({ primary }) => (primary ? '#6d6d6d' : '#2B2220')};
+    white-space: no-wrap;
+    padding: ${({ bigger }) => (bigger ? '1.4rem 2.2rem' : '0.8rem 1rem')};
+    color: #fff;
+    font-size: ${({ fontbigger }) => (fontbigger ? '1.9rem' : '1.7rem')};
+    /* background: #6d6d6d; */
+    border-radius: 50px;
+    white-space: nowrap;
+    padding: 10px 22px;
+    color: #fff;
+    font-size: 1.6rem;
+    font-family: 'Oswald';
+    font-weight: 300;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+
+    &.hover {
+        transition: all 0.2s ease-in-out;
+        background: ${({ primary }) => (primary ? '#2B2220' : '#6d6d6d')};
+        /* background: #2B2220; */
+    }
+`

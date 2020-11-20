@@ -66,7 +66,7 @@ const CalculatingSection = () => {
                 <CalculatingForm>
                     <CalculatingFormSubmit onSubmit={handleSubmit}>
                         <CalculatingInputs>
-                            <CalculatingLabel htmlFor="area">Powierzchnia</CalculatingLabel>
+                            <CalculatingLabel htmlFor="area">Powierzchnia w m2</CalculatingLabel>
                             <CalculatingInput
                                 type="text"
                                 name="area"
@@ -86,7 +86,7 @@ const CalculatingSection = () => {
 
                     <CalculatingBtnWrapper>
                         <Button
-                            to='calculating'
+                            to='/'
                             onMouseEnter={onHover}
                             onMouseLeave={onHover}
                             primary="true"

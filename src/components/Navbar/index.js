@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { BiMenuAltRight } from 'react-icons/bi';
+import { animationScroll as scroll } from 'react-scroll';
 import {
     Nav,
     NavbarContainer,
@@ -13,17 +14,40 @@ import {
 } from './NavbarElements';
 
 export const Navbar = ({ toggle }) => {
+    const [hover, setHover] = useState(false);
+
+    const onHover = () => {
+        setHover(!hover);
+    };
+
+    // useEffect(() => {
+    //     window.addEventListener('scroll')
+    // }, []);
+
+    const toggleHome = () => {
+        scroll.scrollToTop();
+    };
+
     return (
         <>
             <Nav>
                 <NavbarContainer>
-                    <NavLogo to='/'>ZBK DESIGN</NavLogo>
+                    <NavLogo to='/' onClick={toggleHome}>
+                        <NavLinks>ZBK DESIGN</NavLinks>
+                    </NavLogo>
                     <MobileIcon onClick={toggle}>
                         <BiMenuAltRight />
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to="project">projekty</NavLinks>
+                            <NavLinks to="project"
+                                smooth={true}
+                                duration={500}
+                                spy={true}
+                                exact='true'
+                                offset={-80}
+                                activeClass='active'
+                            >projekty</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks to="pricing">wycena</NavLinks>
@@ -33,7 +57,12 @@ export const Navbar = ({ toggle }) => {
                         </NavItem>
                     </NavMenu>
                     <NavBtn>
-                        <NavBtnLink to="/call">+48 667 806 802</NavBtnLink>
+                        <NavBtnLink
+                            to="/signin"
+                            onMouseEnter={onHover}
+                            onMouseLeave={onHover}>
+                            Zapisz się
+                        </NavBtnLink>
                     </NavBtn>
                 </NavbarContainer>
             </Nav>

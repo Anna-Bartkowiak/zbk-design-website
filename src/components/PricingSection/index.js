@@ -26,7 +26,7 @@ const PricingSection = () => {
                 </PricingText>
                 <PricingBtnWrapper>
                     <Button
-                        to='calculating'
+                        to='/src/pages/calculating'
                         onMouseEnter={onHover}
                         onMouseLeave={onHover}
                         primary="true"

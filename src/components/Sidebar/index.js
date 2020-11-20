@@ -1,8 +1,23 @@
-import React from 'react';
-// import { FaTimes } from 'react-icons/fa';
-import { SidebarContainer, SidebarLogo, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink } from './SidebarElements';
+import React, { useState } from 'react';
+import {
+    SidebarContainer,
+    SidebarLogo,
+    Icon,
+    CloseIcon,
+    SidebarWrapper,
+    SidebarMenu,
+    SidebarLink,
+    SideBtnWrap,
+    SidebarRoute
+} from './SidebarElements';
 
 const Sidebar = ({ isOpen, toggle }) => {
+    const [hover, setHover] = useState(false);
+
+    const onHover = () => {
+        setHover(!hover);
+    };
+
     return (
         <SidebarContainer isOpen={isOpen} onClick={toggle}>
             <SidebarLogo to='home'>
@@ -17,6 +32,14 @@ const Sidebar = ({ isOpen, toggle }) => {
                     <SidebarLink to='pricing' onClick={toggle}>wycena</SidebarLink>
                     <SidebarLink to='contact' onClick={toggle}>contact</SidebarLink>
                 </SidebarMenu>
+                <SideBtnWrap>
+                    <SidebarRoute
+                        to="signin"
+                        onMouseEnter={onHover}
+                        onMouseLeave={onHover}>
+                        Zapisz się
+                        </SidebarRoute>
+                </SideBtnWrap>
             </SidebarWrapper>
         </SidebarContainer >
     );

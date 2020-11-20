@@ -9,7 +9,7 @@ import Result from '../components/ResultSection';
 import Footer from '../components/FooterSection';
 
 
-const Home = () => {
+export const Home = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggle = () => {

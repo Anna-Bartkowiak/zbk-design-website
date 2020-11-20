@@ -2,9 +2,6 @@ import styled from 'styled-components';
 import { Link } from 'react-scroll';
 
 export const Button = styled(Link) `
-
-    /* background: ${({ primary }) => (primary ? 'linear-gradient(90deg, rgba(215,185,117,1) 0%, rgba(193,142,26,1) 100%, rgba(192,141,23,0.02910052910052907) 100%)' : 'linear-gradient(90deg, rgba(193,142,26,1) 0%, rgba(215,185,117,1) 100%, rgba(192,141,23,0.02910052910052907) 100%)')}; */
-
     background: ${({ primary }) => (primary ? '#D7B975' : '#c08d17')};
     white-space: no-wrap;
     padding: ${({ bigger }) => (bigger ? '1.4rem 2.2rem' : '0.8rem 1rem')};
