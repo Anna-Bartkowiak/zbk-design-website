@@ -1,6 +1,7 @@
 import React from 'react';
 import useForm from './useForm';
 import validate from './validateInfo';
+import { db } from "firebase";
 import {
     Container,
     FormWrap,

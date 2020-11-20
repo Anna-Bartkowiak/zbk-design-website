@@ -71,7 +71,9 @@ export const Form = styled.form`
         color: red;
     }
 
-    @media screen and (max-width: 400px) {
+    
+
+    @media screen and (max-width: 768px) {
         padding: 3.2rem 3.2rem;
         width: 60%;
     }

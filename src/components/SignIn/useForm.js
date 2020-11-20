@@ -20,6 +20,14 @@ const useForm = (callback, validate) => {
     const handleSubmit = e => {
         e.preventDefault();
 
+        // db.collection("contacts").add({
+        //     email: email,
+        //     password: password
+        // })
+        //     .then(() => {
+        //         alert('Wiadomość wysłana');
+        //     })
+
         setErrors(validate(values));
         setIsSubmitting(true);
     };
