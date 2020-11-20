@@ -27,7 +27,7 @@ export const FormWrap = styled.div`
     justify-content: center;
 
     @media screen and (max-width: 400px) {
-        height: 80%;
+        /* height: 80%; */
     }
 `;
 
@@ -73,6 +73,7 @@ export const Form = styled.form`
 
     @media screen and (max-width: 400px) {
         padding: 3.2rem 3.2rem;
+        width: 60%;
     }
 `;
 
