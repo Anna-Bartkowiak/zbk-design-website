@@ -26,11 +26,12 @@ export const SidebarLogo = styled(LinkRouter) `
     align-items: center;
     margin-top: 2rem;
     margin-left: 2rem;
+    color: #2a2a2a;
     background-color: transparent;
 `;
 
 export const CloseIcon = styled(VscChromeClose) `
-    color: #6d6d6d;
+    color: #2a2a2a;
     background: transparent;
 `;
 
@@ -45,7 +46,7 @@ export const Icon = styled.div`
 `;
 
 export const SidebarWrapper = styled.div`
-    color: #6d6d6d;
+    color: #2a2a2a;
 `;
 
 export const SidebarMenu = styled.ul`
@@ -69,7 +70,7 @@ export const SidebarLink = styled(LinkScroll) `
     list-style: none;
     transition: 0.2s ease-in-out;
     text-decoration: none;
-    color: #6d6d6d;
+    color: #2a2a2a;
     background: #fff;
     text-transform: uppercase;
     cursor: pointer;
@@ -87,7 +88,7 @@ export const SideBtnWrap = styled.div`
 `
 
 export const SidebarRoute = styled(LinkRouter) `
-    background: ${({ primary }) => (primary ? '#6d6d6d' : '#2B2220')};
+    background: ${({ primary }) => (primary ? '#2a2a2a' : '#6d6d6d')};
     white-space: no-wrap;
     padding: ${({ bigger }) => (bigger ? '1.4rem 2.2rem' : '0.8rem 1rem')};
     color: #fff;
@@ -108,7 +109,7 @@ export const SidebarRoute = styled(LinkRouter) `
 
     &.hover {
         transition: all 0.2s ease-in-out;
-        background: ${({ primary }) => (primary ? '#2B2220' : '#6d6d6d')};
+        background: ${({ primary }) => (primary ? '#2a2a2a' : '#6d6d6d')};
         /* background: #2B2220; */
     }
 `

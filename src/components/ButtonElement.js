@@ -2,10 +2,10 @@ import styled from 'styled-components';
 import { Link } from 'react-scroll';
 
 export const Button = styled(Link) `
-    background: ${({ primary }) => (primary ? '#D7B975' : '#c08d17')};
+    background: ${({ primary }) => (primary ? '#928165' : '#c08d17')};
     white-space: no-wrap;
     padding: ${({ bigger }) => (bigger ? '1.4rem 2.2rem' : '0.8rem 1rem')};
-    color: #fff;
+    color: #e5e5e5;
     font-size: ${({ fontbigger }) => (fontbigger ? '1.9rem' : '1.7rem')};
     font-family: 'Oswald';
     font-weight: 300;
@@ -19,6 +19,6 @@ export const Button = styled(Link) `
 
     &:hover {
         transition: all 0.3s ease-in-out;
-        background: ${({ primary }) => (primary ? '#c08d17' : '#D7B975')};
+        background: ${({ primary }) => (primary ? '#c08d17' : '#928165')};
     }
 `;

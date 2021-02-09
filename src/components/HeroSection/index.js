@@ -8,7 +8,10 @@ import {
     HeroH1,
     HeroSpan,
     HeroBtnWrapper,
-    ArrowRight
+    ArrowRight,
+    HeroGuotation,
+    // HeroIcon,
+    HeroP
 } from './HeroElements';
 
 const HeroSection = () => {
@@ -23,7 +26,7 @@ const HeroSection = () => {
             <HeroBackground>
                 <HeroText>
                     <HeroH1>
-                        <HeroSpan>projekty <br />wnętrz z <br />duszą</HeroSpan>
+                        <HeroSpan>projekty <br />wnętrz z <br />duszą.</HeroSpan>
                     </HeroH1>
                 </HeroText>
                 <HeroBtnWrapper>
@@ -39,7 +42,12 @@ const HeroSection = () => {
                     </Button>
                 </HeroBtnWrapper>
             </HeroBackground>
-
+            <HeroGuotation>
+                {/* <HeroIcon><i className="fas fa-quote-left"></i></HeroIcon> */}
+                <HeroP>
+                    „Każdy marzy o tym by żyć w przestrzeni odzwierciedlającej jego wewnętrzne pragnienia, spójnej ze stylem życia, potrzebami oraz poczuciem estetyki.  Twoje pragnienie ukojenia po ciężkim dniu pracy, będzie dla mnie inspiracją do stworzenia komfortowego wnętrza pełnego cech, które stanowią dla Ciebie źródło spełnienia.  Idealne wnętrze już istnieje, w Twoim sercu i umyśle, moją rolą jest wcielić je w życie za pomocą dobrego projektu”
+                </HeroP>
+            </HeroGuotation>
         </HeroContainer>
     )
 }

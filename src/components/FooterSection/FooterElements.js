@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-// import { Link } from 'react-router-dom;'
+import { Link } from 'react-router-dom';
 
 export const FooterContainer = styled.div`
     height: 50rem;
@@ -7,6 +7,7 @@ export const FooterContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #e5e5e5;
 
     @media screen and (max-width: 1000px) {
         height: 80rem;
@@ -19,40 +20,39 @@ export const FooterContainer = styled.div`
 
 export const FooterWrapper = styled.div`
     max-width: 110rem;
+    width: 100%;
     margin: 0 5rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    /* align-items: center; */
-    grid-gap: 1.6rem;
-    padding: 5rem 0;
-    border-top: 1px solid #979797;
+    padding: 0 5rem;
 
     @media screen and (max-width: 1000px) {
-        grid-template-columns: 1fr 1fr;
+
     }
 
     @media screen and (max-width: 480px) {
-        grid-template-columns: 1fr;
-        padding: 0;
+
     }
 `
 
 export const FooterContact = styled.div`
     font-family: 'Oswald', cursive;
     font-weight: 300;
-    font-size: 1.6rem;
-    line-height: 2.4rem;
+    font-size: 2rem;
+    line-height: 4rem;
     padding: 4rem 0;
 `
 
 export const FooterH1 = styled.h1`
-    font-size: 3rem;
-    line-height: 3.4rem;
+    font-size: 8rem;
+    line-height: 10rem;
     font-family: 'Unica One', sans-serif;
     font-weight: 400;
 `
 
-export const FooterP = styled.p``
+export const FooterP = styled.p`
+`
+export const FooterLink = styled(Link) `
+    text-decoration: bold;
+`
 
 export const FooterForm = styled.form`
     width: 100%;

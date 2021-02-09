@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { BiMenuAltRight } from 'react-icons/bi';
 import { animationScroll as scroll } from 'react-scroll';
 import {
@@ -50,20 +50,20 @@ export const Navbar = ({ toggle }) => {
                             >projekty</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="pricing">wycena</NavLinks>
+                            <NavLinks to="pricing">o nas</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks to="contact">kontakt</NavLinks>
                         </NavItem>
                     </NavMenu>
-                    <NavBtn>
+                    {/* <NavBtn>
                         <NavBtnLink
                             to="/signin"
                             onMouseEnter={onHover}
                             onMouseLeave={onHover}>
                             Zapisz się
                         </NavBtnLink>
-                    </NavBtn>
+                    </NavBtn> */}
                 </NavbarContainer>
             </Nav>
         </>

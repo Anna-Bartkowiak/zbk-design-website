@@ -28,13 +28,14 @@ export const NavbarContainer = styled.div`
     padding: 0 2.4rem;
     max-width: 1400px;
 `;
+
 export const NavLogo = styled(LinkRouter) `
     justify-self: flex-start;
     cursor: pointer;
     font-size: 2.8rem;
     display: flex;
     align-items: center;
-    margin-left: 2.4rem;
+    /* margin-left: 2.4rem; */
     img: require('../../images/zbk_design_logo_horizontal_copy.png');
 `;
 
@@ -49,7 +50,7 @@ export const MobileIcon = styled.div`
         transform: translate(-65%, 50%);
         font-size: 3.2rem;
         cursor: pointer;
-        color: #6d6d6d;
+        color: #2a2a2a;
     }
 `;
 export const NavMenu = styled.ul`
@@ -69,7 +70,7 @@ export const NavItem = styled.li`
 `
 
 export const NavLinks = styled(LinkScroll) `
-    color: #6D6D6D;
+    color: #2a2a2a;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -79,7 +80,7 @@ export const NavLinks = styled(LinkScroll) `
     cursor: pointer;
 
     &.active {
-        border-bottom: 1px solid #6D6D6D;
+        border-bottom: 1px solid #2a2a2a;
     }
 
     &:hover {
@@ -102,7 +103,7 @@ export const NavBtnLink = styled(LinkRouter) `
     border-radius: 50px;
     white-space: nowrap;
     padding: 10px 22px;
-    color: #fff;
+    color: #2a2a2a;
     font-size: 1.6rem;
     font-family: 'Oswald';
     font-weight: 300;

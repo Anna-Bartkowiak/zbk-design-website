@@ -13,7 +13,7 @@ const GlobalStyle = createGlobalStyle`
 
     body {
         background-color: #f6f6f6;
-        color: #6d6d6d;
+        color: #2a2a2a;
         font-family: 'Unica One', 'Oswald', sans-serif;
         font-weight: 400;
     }

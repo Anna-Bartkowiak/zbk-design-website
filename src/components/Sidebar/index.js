@@ -7,7 +7,7 @@ import {
     SidebarWrapper,
     SidebarMenu,
     SidebarLink,
-    SideBtnWrap,
+    // SideBtnWrap,
     SidebarRoute
 } from './SidebarElements';
 
@@ -29,17 +29,17 @@ const Sidebar = ({ isOpen, toggle }) => {
             <SidebarWrapper>
                 <SidebarMenu>
                     <SidebarLink to='project' onClick={toggle}>projekty</SidebarLink>
-                    <SidebarLink to='pricing' onClick={toggle}>wycena</SidebarLink>
-                    <SidebarLink to='contact' onClick={toggle}>contact</SidebarLink>
+                    <SidebarLink to='pricing' onClick={toggle}>o nas</SidebarLink>
+                    <SidebarLink to='contact' onClick={toggle}>kontakt</SidebarLink>
                 </SidebarMenu>
-                <SideBtnWrap>
+                {/* <SideBtnWrap>
                     <SidebarRoute
                         to="signin"
                         onMouseEnter={onHover}
                         onMouseLeave={onHover}>
                         Zapisz się
                         </SidebarRoute>
-                </SideBtnWrap>
+                </SideBtnWrap> */}
             </SidebarWrapper>
         </SidebarContainer >
     );

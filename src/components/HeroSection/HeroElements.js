@@ -9,9 +9,10 @@ export const HeroContainer = styled.div`
 
 export const HeroBackground = styled.div`
     background: url(${images}) top center no-repeat;
+    background-color: #e5e5e5;
     margin: 0 auto;
     width: 100%;
-    height: 60rem;
+    height: 53rem;
     max-width: 1400px;
     display: flex;
     align-items: center;
@@ -55,7 +56,7 @@ export const HeroSpan = styled.span`
 `
 export const HeroBtnWrapper = styled.div`
     position: absolute;
-    top: 56%;
+    top: 60%;
     left: 7%;
     margin-top: 2rem;
     display: flex;
@@ -71,7 +72,25 @@ export const ArrowRight = styled(IoIosArrowForward) `
     margin-left: 1rem;
     font-size: 2rem;
     background: transparent;
-    color: #fff;
+    color: #e5e5e5;
 `
+
+export const HeroGuotation = styled.div`
+    max-width: 95rem;
+    text-align: center;
+    margin: 5rem auto;
+    padding: 5rem;
+    font-size: 2rem;
+    line-height: 3rem;
+    color: #e5e5e5;
+    font-style: oblique;
+    background-color: #928165;
+    font-family: 'Oswald',cursive;
+    font-weight: 300;
+`
+
+// export const HeroIcon = styled.i``
+
+export const HeroP = styled.p``
 
 export default HeroContainer;
