@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// import images from '../../images/flat_35m_img1.jpg';
 import { Button } from '../ButtonElement';
 import {
     HeroContainer,

@@ -20,7 +20,7 @@ const Sidebar = ({ isOpen, toggle }) => {
 
     return (
         <SidebarContainer isOpen={isOpen} onClick={toggle}>
-            <SidebarLogo to='home'>
+            <SidebarLogo to='/'>
                 ZBK DESIGN
             </SidebarLogo>
             <Icon onClick={toggle}>
@@ -29,7 +29,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             <SidebarWrapper>
                 <SidebarMenu>
                     <SidebarLink to='project' onClick={toggle}>projekty</SidebarLink>
-                    <SidebarLink to='pricing' onClick={toggle}>o nas</SidebarLink>
+                    <SidebarLink to='aboutUs' onClick={toggle}>o nas</SidebarLink>
                     <SidebarLink to='contact' onClick={toggle}>kontakt</SidebarLink>
                 </SidebarMenu>
                 {/* <SideBtnWrap>

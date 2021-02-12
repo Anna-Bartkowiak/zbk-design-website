@@ -66,7 +66,7 @@ export const NavMenu = styled.ul`
 `;
 
 export const NavItem = styled.li`
-    height: 80px;
+    /* height: 80px; */
 `
 
 export const NavLinks = styled(LinkScroll) `
@@ -75,7 +75,7 @@ export const NavLinks = styled(LinkScroll) `
     align-items: center;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 0 1.6rem;
+    padding: 1.6rem;
     height: 100%;
     cursor: pointer;
 

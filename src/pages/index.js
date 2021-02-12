@@ -4,8 +4,7 @@ import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
 import HeroSection from '../components/HeroSection';
 import GallerySection from '../components/GallerySection';
-// import PricingSection from '../components/PricingSection';
-// import CalculatingSection from '../components/CalculatingSection';
+import AboutUsSection from '../components/AboutUs';
 // import Result from '../components/ResultSection';
 import Footer from '../components/FooterSection';
 
@@ -24,7 +23,7 @@ export const Home = () => {
             <Navbar toggle={toggle} />
             <HeroSection />
             <GallerySection />
-            {/* <CalculatingSection /> */}
+            <AboutUsSection />
             {/* <Result /> */}
             <Footer />
         </>

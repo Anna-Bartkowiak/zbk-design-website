@@ -2,12 +2,14 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 export const FooterContainer = styled.div`
-    height: 50rem;
+    height: 55rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #e5e5e5;
+    max-width: 140rem;
+    margin: 12rem auto 12rem;
+    border: 1px solid #2a2a2a;
 
     @media screen and (max-width: 1000px) {
         height: 80rem;
@@ -33,17 +35,29 @@ export const FooterWrapper = styled.div`
     }
 `
 
+export const FooterGrid = styled.div`
+    display: grid;
+    grid-template-columns: 33% auto;
+`
+
 export const FooterContact = styled.div`
     font-family: 'Oswald', cursive;
     font-weight: 300;
     font-size: 2rem;
     line-height: 4rem;
-    padding: 4rem 0;
+    /* padding: 4rem 0; */
+`
+
+export const FooterImg = styled.img`
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    /* padding-top: 6rem; */
 `
 
 export const FooterH1 = styled.h1`
     font-size: 8rem;
-    line-height: 10rem;
+    line-height: 8rem;
     font-family: 'Unica One', sans-serif;
     font-weight: 400;
 `

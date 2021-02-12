@@ -50,20 +50,26 @@ export const Navbar = ({ toggle }) => {
                             >projekty</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="pricing">o nas</NavLinks>
+                            <NavLinks to="aboutUs"
+                                smooth={true}
+                                duration={500}
+                                spy={true}
+                                exact='true'
+                                offset={-80}
+                                activeClass='active'
+                            >o nas</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="contact">kontakt</NavLinks>
+                            <NavLinks to="contact"
+                                smooth={true}
+                                duration={500}
+                                spy={true}
+                                exact='true'
+                                offset={-80}
+                                activeClass='active'
+                            >kontakt</NavLinks>
                         </NavItem>
                     </NavMenu>
-                    {/* <NavBtn>
-                        <NavBtnLink
-                            to="/signin"
-                            onMouseEnter={onHover}
-                            onMouseLeave={onHover}>
-                            Zapisz się
-                        </NavBtnLink>
-                    </NavBtn> */}
                 </NavbarContainer>
             </Nav>
         </>

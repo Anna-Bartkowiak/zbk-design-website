@@ -5,7 +5,7 @@ import { IoIosArrowForward } from 'react-icons/io';
 export const HeroContainer = styled.div`
     width: 100%;
     height: 100%;
-`;
+`
 
 export const HeroBackground = styled.div`
     background: url(${images}) top center no-repeat;
@@ -69,8 +69,9 @@ export const HeroBtnWrapper = styled.div`
 `
 
 export const ArrowRight = styled(IoIosArrowForward) `
-    margin-left: 1rem;
-    font-size: 2rem;
+    margin-left: .5rem;
+    margin-bottom: -0.7rem;
+    font-size: 1.75rem;
     background: transparent;
     color: #e5e5e5;
 `
@@ -78,7 +79,7 @@ export const ArrowRight = styled(IoIosArrowForward) `
 export const HeroGuotation = styled.div`
     max-width: 95rem;
     text-align: center;
-    margin: 5rem auto;
+    margin: 0rem auto 8rem;
     padding: 5rem;
     font-size: 2rem;
     line-height: 3rem;
