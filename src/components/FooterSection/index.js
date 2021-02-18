@@ -9,21 +9,20 @@ import {
     FooterLink,
     FooterImg
 } from './FooterElements';
-import image1 from '../../images/MainGallery/img1_contact.jpg';
 
 export const Footer = () => {
     return (
         <FooterContainer id="contact">
             <FooterWrapper>
                 <FooterGrid>
-                    <FooterContact>
+                    <FooterContact className="item-1">
                         <FooterH1>kontakt.</FooterH1>
                         <FooterP>Zuzanna Bartoszewska-Kałuc Interiors</FooterP>
                         <FooterP>
                             <FooterLink href='tel:+48667806802'>+48 667 806 802</FooterLink>
                         </FooterP>
                         <FooterP>
-                            <FooterLink>zbkdesign@zbkdesign.pl</FooterLink>
+                            <FooterLink href="mailto:zbkdesign@zbkdesign.pl" role="button">zbkdesign@zbkdesign.pl</FooterLink>
                         </FooterP>
                         <FooterP>
                             <FooterLink>Facebook</FooterLink>
@@ -31,7 +30,7 @@ export const Footer = () => {
                         <FooterP>ul. Kolorowa 29</FooterP>
                         <FooterP>72-006 Mierzyn</FooterP>
                     </FooterContact>
-                    <FooterImg src={image1} alt='image1' />
+                    <FooterImg className="item-2" />
                 </FooterGrid>
             </FooterWrapper>
         </FooterContainer>

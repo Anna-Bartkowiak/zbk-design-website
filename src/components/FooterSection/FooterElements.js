@@ -1,22 +1,33 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
+import images from '../../images/MainGallery/img1_contact.jpg';
 
 export const FooterContainer = styled.div`
-    height: 55rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     max-width: 140rem;
+    padding: 10rem 0;
     margin: 12rem auto 12rem;
     border: 1px solid #2a2a2a;
 
     @media screen and (max-width: 1000px) {
-        height: 80rem;
+        margin: 10rem auto 12rem;
     }
 
     @media screen and (max-width: 768px) {
-        height: 100rem;
+        margin: 8rem;
+        padding: 7rem 0;
+    }
+
+    @media screen and (max-width: 480px) {
+        margin: 8rem 3rem;
+    }
+
+    @media screen and (max-width: 400px) {
+        margin: 6rem 1rem;
+        padding: 5rem 0;
     }
 `
 
@@ -30,29 +41,63 @@ export const FooterWrapper = styled.div`
 
     }
 
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 768px) {
+        text-align: center;
+        padding: 0 4rem;
+    }
 
+    @media screen and (max-width: 480px) {
+        margin: 0;
+        padding: 0 2rem;
     }
 `
 
 export const FooterGrid = styled.div`
     display: grid;
     grid-template-columns: 33% auto;
+
+    @media screen and (max-width: 1000px) {
+        grid-template-columns: 40% auto;
+        column-gap: 2%;
+    }
+
+    @media screen and (max-width: 768px) {
+        grid-template-columns: 100%;
+        grid-row: auto;
+        grid-template-areas:
+            "item1";
+
+        .item-1 {
+            grid-area: item1;
+        }
+        .item-2 {
+            grid-area: item2;
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+
+    }
 `
 
 export const FooterContact = styled.div`
     font-family: 'Oswald', cursive;
     font-weight: 300;
     font-size: 2rem;
-    line-height: 4rem;
-    /* padding: 4rem 0; */
+    line-height: 3.5rem;
+
+    @media screen and (max-width: 768px) {
+        font-size: 1.8rem;
+    }
 `
 
-export const FooterImg = styled.img`
+export const FooterImg = styled.div`
     height: 100%;
     width: 100%;
     overflow: hidden;
-    /* padding-top: 6rem; */
+    background: url(${images}) top center no-repeat;
+    margin: 0 auto;
 `
 
 export const FooterH1 = styled.h1`
@@ -60,54 +105,22 @@ export const FooterH1 = styled.h1`
     line-height: 8rem;
     font-family: 'Unica One', sans-serif;
     font-weight: 400;
-`
+    padding-bottom: 2rem;
 
-export const FooterP = styled.p`
-`
-export const FooterLink = styled(Link) `
-    text-decoration: bold;
-`
-
-export const FooterForm = styled.form`
-    width: 100%;
-    max-width: 70rem;
-    padding: 4rem;
+    @media screen and (max-width: 1000px) {
+        font-size: 4.8rem;
+        line-height: 5.8rem;
+    }
 
     @media screen and (max-width: 480px) {
-        padding: 0;
+
     }
 `
 
-export const FooterInputs = styled.div`
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-`
+export const FooterP = styled.p``
 
-export const FooterLabel = styled.label`
-    margin-top: 1.6rem;
-    margin-bottom: 0.6rem;
-`
-
-export const FooterInput = styled.input`
-    width: 25rem;
-    padding: 0.5rem;
-    font-size: 1.6rem;
-    font-family: 'Oswald', cursive;
-`
-
-export const FooterInputTextarea = styled.textarea`
-    height: 10rem;
-`
-
-export const FooterError = styled.div`
-    margin-top: 1.6rem;
-`
-
-export const FooterErrorP = styled.div``
-
-export const FooterBtnWrapper = styled.div`
-    margin-top: 1.6rem;
+export const FooterLink = styled(Link) `
+    text-decoration: bold;
 `
 
 export default FooterContainer;

@@ -16,13 +16,11 @@ export const HeroBackground = styled.div`
     max-width: 1400px;
     display: flex;
     align-items: center;
-    padding: 0 3rem;
     position: relative;
     z-index: 1;
 
     @media screen and (max-width: 480px) {
         margin: 0;
-        padding: 0;
         width: 100%;
         background-position: top left -13%;
     }
@@ -53,6 +51,7 @@ export const HeroSpan = styled.span`
     padding: 0 1rem;
     box-decoration-break: clone;
     background-color: #f6f6f6;
+    border: 1px solid #928165;
 `
 export const HeroBtnWrapper = styled.div`
     position: absolute;
@@ -80,7 +79,7 @@ export const HeroGuotation = styled.div`
     max-width: 95rem;
     text-align: center;
     margin: 0rem auto 8rem;
-    padding: 5rem;
+    padding: 3.5rem;
     font-size: 2rem;
     line-height: 3rem;
     color: #e5e5e5;
@@ -88,10 +87,29 @@ export const HeroGuotation = styled.div`
     background-color: #928165;
     font-family: 'Oswald',cursive;
     font-weight: 300;
+
+    @media screen and (max-width: 1000px) {
+        padding: 3.5rem;
+        font-size: 1.8rem;
+        line-height: 2.8rem;
+    }
+
+    @media screen and (max-width: 768px) {
+        margin: 0rem auto 6rem;
+    }
+
+    @media screen and (max-width: 576px) {
+        padding: 3rem;
+    }
 `
 
-// export const HeroIcon = styled.i``
+export const HeroP = styled.p`
+    border: 1px solid #c08d17;
+    padding: 2.5rem;
 
-export const HeroP = styled.p``
+    @media screen and (max-width: 576px) {
+        padding: 2rem;
+    }
+`
 
 export default HeroContainer;

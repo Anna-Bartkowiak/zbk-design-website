@@ -1,6 +1,5 @@
-// import React from 'react';
 import styled from 'styled-components';
-import { Link as LinkRouter } from 'react-router-dom';
+// import { Link as LinkRouter } from 'react-router-dom';
 import { Link as LinkScroll } from 'react-scroll';
 
 export const Nav = styled.nav`
@@ -29,13 +28,12 @@ export const NavbarContainer = styled.div`
     max-width: 1400px;
 `;
 
-export const NavLogo = styled(LinkRouter) `
+export const NavLogo = styled(LinkScroll) `
     justify-self: flex-start;
     cursor: pointer;
     font-size: 2.8rem;
     display: flex;
     align-items: center;
-    /* margin-left: 2.4rem; */
     img: require('../../images/zbk_design_logo_horizontal_copy.png');
 `;
 
@@ -58,7 +56,7 @@ export const NavMenu = styled.ul`
     align-items: center;
     list-style: none;
     text-align: center;
-    margin-right: -22px;
+    padding-right: 1.6rem;
 
     @media screen and (max-width: 768px) {
         display: none;
@@ -66,7 +64,15 @@ export const NavMenu = styled.ul`
 `;
 
 export const NavItem = styled.li`
-    /* height: 80px; */
+    border: 1px solid #c08d17;
+    margin-left: 1.2rem;
+
+    & :hover,
+    .active {
+        transition: all 0.3s ease-in-out;
+        background: #c08d17;
+        color: #e5e5e5;
+    }
 `
 
 export const NavLinks = styled(LinkScroll) `
@@ -75,46 +81,7 @@ export const NavLinks = styled(LinkScroll) `
     align-items: center;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 1.6rem;
+    padding:  1.2rem 1.6rem;
     height: 100%;
     cursor: pointer;
-
-    &.active {
-        border-bottom: 1px solid #2a2a2a;
-    }
-
-    &:hover {
-        color: #2B2220;
-        transition: 0.2s ease-in-out;
-    }
-`;
-
-export const NavBtn = styled.nav`
-    display: flex;
-    align-items: center;
-
-    @media screen and (max-width: 768px) {
-        display: none;
-    }
-`;
-
-export const NavBtnLink = styled(LinkRouter) `
-    background: #6d6d6d;
-    border-radius: 50px;
-    white-space: nowrap;
-    padding: 10px 22px;
-    color: #2a2a2a;
-    font-size: 1.6rem;
-    font-family: 'Oswald';
-    font-weight: 300;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
-    text-decoration: none;
-
-    &.hover {
-        transition: all 0.2s ease-in-out;
-        background: #2B2220;
-    }
 `;

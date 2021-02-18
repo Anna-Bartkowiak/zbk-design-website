@@ -9,10 +9,13 @@ export const GalleryContainer = styled.div`
 
     @media screen and (max-width: 1000px) {
         max-width: 960px;
+
     }
 
     @media screen and (max-width: 768px) {
         max-width: 720px;
+        margin: 3rem auto;
+        padding: 0 1rem;
     }
 
     @media screen and (max-width: 576px) {
@@ -21,12 +24,20 @@ export const GalleryContainer = styled.div`
 `
 
 export const GalleryWrapper = styled.div``
+
 export const GalleryH2 = styled.h2`
     font-size: 5.8rem;
     line-height: 6.8rem;
     font-family: 'Unica One', sans-serif;
     font-weight: 400;
     padding-bottom: 3rem;
+
+    @media screen and (max-width: 768px) {
+        font-size: 4.8rem;
+        line-height: 5.8rem;
+        padding-bottom: 2rem;
+        text-align: center;
+    }
 `
 
 export const GalleryItem = styled.div`
@@ -38,19 +49,61 @@ export const GalleryItem = styled.div`
 export const GalleryGrid = styled.div`
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 50rem 50rem 50rem 50rem;
+    grid-template-rows: 50rem 50rem 50rem 50rem 50rem;
 
     @media screen and (max-width: 1000px) {
-        grid-template-rows: 43rem 43rem 43rem 43rem;
+        grid-template-rows: 43rem 43rem 43rem 43rem 43rem;
     }
 
     @media screen and (max-width: 768px) {
-        grid-template-rows: 31rem 31rem 31rem 31rem;
+        grid-template-rows: 31rem 31rem 31rem 31rem 31rem;
     }
 
     @media screen and (max-width: 576px) {
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: 31rem 31rem 31rem 31rem 31rem 31rem 31rem 31rem;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(10, 35rem);
+        grid-template-areas:
+            "item1"
+            "item2"
+            "item4"
+            "item3"
+            "item5"
+            "item6"
+            "item8"
+            "item7"
+            "item9"
+            "item10";
+
+        .item-1 {
+            grid-area: item1;
+        }
+        .item-2 {
+            grid-area: item2;
+        }
+        .item-3 {
+            grid-area: item3;
+        }
+        .item-4 {
+            grid-area: item4;
+        }
+        .item-5 {
+            grid-area: item5;
+        }
+        .item-6 {
+            grid-area: item6;
+        }
+        .item-7 {
+            grid-area: item7;
+        }
+        .item-8 {
+            grid-area: item8;
+        }
+        .item-9 {
+            grid-area: item9;
+        }
+        .item-10 {
+            grid-area: item10;
+        }
     }
 `
 
@@ -80,7 +133,28 @@ export const GalleryTextContainer = styled.div`
     line-height: 2.2rem;
     letter-spacing: 1px;
     border: 1px solid #928165;
+    display:flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+
+    @media screen and (max-width: 1000px) {
+        padding: 4rem;
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+
+    @media screen and (max-width: 768px) {
+        padding: 2.8rem;
+        font-size: 1.5rem;
+        line-height: 1.6rem;
+    }
+
+    @media screen and (max-width: 576px) {
+        padding: 4rem;
+    }
 `
+
 export const GalleryH3 = styled.h3`
     display: inline-block;
     font-size: 3rem;
@@ -90,30 +164,96 @@ export const GalleryH3 = styled.h3`
     background-repeat: repeat-x;
     padding-bottom: .8rem;
     background-size: 3px 22px;
+
+    @media screen and (max-width: 1000px) {
+        font-size: 2.6rem;
+        background-size: 2px 18px;
+    }
+
+    @media screen and (max-width: 768px) {
+        font-size: 2.1rem;
+    }
+
+    @media screen and (max-width: 576px) {
+        font-size: 2.3rem;
+        background-size: 2px 6px;
+    }
 `
 
 export const GalleryH4 = styled.h4`
     font-size: 1.6rem;
     padding: 1rem 0;
+
+    @media screen and (max-width: 1000px) {
+        font-size: 1.5rem;
+        padding: .8rem 0;
+    }
+
+    @media screen and (max-width: 768px) {
+        font-size: 1.2rem;
+        padding: .4rem 0;
+    }
+
+    @media screen and (max-width: 576px) {
+        font-size: 1.4rem;
+        padding: .8rem 0;
+    }
 `
 export const GalleryP = styled.p`
     font-family: 'Oswald',cursive;
     padding: 2rem 0 6rem;
     font-weight: 300;
+
+    @media screen and (max-width: 1000px) {
+        padding: 1.5rem 0 3.5rem;
+        font-size: 1.4rem;
+    }
+    @media screen and (max-width: 768px) {
+        padding: .6rem 0 1.8rem;
+        font-size: 1.3rem;
+    }
+
+    @media screen and (max-width: 576px) {
+        padding: 1rem 0 2rem;
+        font-size: 1.4rem;
+    }
 `
 
 export const GalleryBtnWrapper = styled.div`
 
+    @media screen and (max-width: 576px) {
+        text-align: center;
+    }
 `
 
 export const ArrowRight = styled(VscArrowSmallRight) `
     margin-left: 2rem;
     margin-bottom: -0.6rem;
     font-size: 2.5rem;
+
+    @media screen and (max-width: 768px) {
+        margin-left: .8rem;
+        margin-bottom: -0.5rem;
+        font-size: 2.2rem;
+    }
+
+    @media screen and (max-width: 576px) {
+        display: none;
+    }
 `
 
 export const ArrowLeft = styled(VscArrowSmallLeft) `
     margin-right: 2rem;
     margin-bottom: -0.6rem;
     font-size: 2.5rem;
+
+    @media screen and (max-width: 768px) {
+        margin-right: .8rem;
+        margin-bottom: -0.5rem;
+        font-size: 2.2rem;
+    }
+
+    @media screen and (max-width: 576px) {
+        display: none;
+    }
 `

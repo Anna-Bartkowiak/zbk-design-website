@@ -5,7 +5,6 @@ import Sidebar from '../components/Sidebar';
 import HeroSection from '../components/HeroSection';
 import GallerySection from '../components/GallerySection';
 import AboutUsSection from '../components/AboutUs';
-// import Result from '../components/ResultSection';
 import Footer from '../components/FooterSection';
 
 
@@ -24,7 +23,6 @@ export const Home = () => {
             <HeroSection />
             <GallerySection />
             <AboutUsSection />
-            {/* <Result /> */}
             <Footer />
         </>
     );
