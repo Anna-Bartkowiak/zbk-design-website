@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 // import { Link as LinkRouter } from 'react-router-dom';
-import { Link as LinkScroll } from 'react-scroll';
+import { Link as LinkS } from 'react-scroll';
+import { Link as LinkR } from 'react-router-dom';
+import logo from '../../images/zuzanna_b_kaluc_logo.svg';
 
 export const Nav = styled.nav`
     height: 80px;
@@ -28,14 +30,19 @@ export const NavbarContainer = styled.div`
     max-width: 1400px;
 `;
 
-export const NavLogo = styled(LinkScroll) `
+export const NavLogo = styled(LinkR) `
     justify-self: flex-start;
     cursor: pointer;
-    font-size: 2.8rem;
+    width: 20rem;
     display: flex;
     align-items: center;
-    img: require('../../images/zbk_design_logo_horizontal_copy.png');
+    text-decoration: none;
+    /* img: require('../../images/zuzanna_b_kaluc_logo.svg'); */
 `;
+
+export const NavIcon = styled.div`
+    background-images: url(${logo}) top center no-repeat;
+`
 
 export const MobileIcon = styled.div`
     display: none;
@@ -75,7 +82,7 @@ export const NavItem = styled.li`
     }
 `
 
-export const NavLinks = styled(LinkScroll) `
+export const NavLinks = styled(LinkS) `
     color: #2a2a2a;
     display: flex;
     align-items: center;

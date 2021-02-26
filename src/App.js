@@ -1,9 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './pages';
-// import CalculatingPage from './pages/calculating';
-// import SignInPage from './pages/sigin';
-
 
 export const App = () => {
   return (

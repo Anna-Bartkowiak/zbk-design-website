@@ -5,6 +5,7 @@ import {
     Nav,
     NavbarContainer,
     NavLogo,
+    NavIcon,
     MobileIcon,
     NavMenu,
     NavItem,
@@ -30,8 +31,8 @@ export const Navbar = ({ toggle }) => {
         <>
             <Nav>
                 <NavbarContainer>
-                    <NavLogo to='/' onClick={toggleHome}>
-                        <NavLinks>ZBK DESIGN</NavLinks>
+                    <NavLogo to='/' onClick={toggleHome} alt='logo'>
+                        <NavIcon />
                     </NavLogo>
                     <MobileIcon onClick={toggle}>
                         <BiMenuAltRight />
