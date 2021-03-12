@@ -1,6 +1,15 @@
 import styled, { createGlobalStyle } from 'styled-components';
+// import { ColorsVariables } from './components/Settings/fonts';
 
 const GlobalStyle = createGlobalStyle`
+    :root {
+        --fontColor: #2a2a2a;
+        --primaryColor: #f6f6f6;
+        --secondaryColor: #e5e5e5;
+        --tertiaryColor: #c08d17;
+        --fourthColor: #928165;
+    }
+
     * {
         box-sizing: border-box;
         margin: 0;
@@ -12,8 +21,8 @@ const GlobalStyle = createGlobalStyle`
     }
 
     body {
-        background-color: #f6f6f6;
-        color: #2a2a2a;
+        background-color: var(--primaryColor);
+        color: var(--fontColor);
         font-family: 'Unica One', 'Oswald', sans-serif;
         font-weight: 400;
     }

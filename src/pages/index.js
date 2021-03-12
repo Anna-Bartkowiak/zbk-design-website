@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
 import HeroSection from '../components/HeroSection';
 import GallerySection from '../components/GallerySection';
+import Project1Section from '../components/Project1';
 import AboutUsSection from '../components/AboutUs';
 import Footer from '../components/FooterSection';
 
@@ -22,6 +23,7 @@ export const Home = () => {
             <Navbar toggle={toggle} />
             <HeroSection />
             <GallerySection />
+            <Project1Section />
             <AboutUsSection />
             <Footer />
         </>

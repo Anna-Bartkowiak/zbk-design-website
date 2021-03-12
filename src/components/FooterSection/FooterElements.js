@@ -10,7 +10,7 @@ export const FooterContainer = styled.div`
     max-width: 140rem;
     padding: 10rem 0;
     margin: 12rem auto 12rem;
-    border: 1px solid #2a2a2a;
+    border: 1px solid var(--fontColor);
 
     @media screen and (max-width: 1000px) {
         margin: 10rem auto 12rem;

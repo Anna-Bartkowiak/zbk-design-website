@@ -11,6 +11,7 @@ import {
     NavItem,
     NavLinks,
 } from './NavbarElements';
+import logo from '../../images/zuzanna_b_kaluc_logo.svg';
 
 export const Navbar = ({ toggle }) => {
     // const [hover, setHover] = useState(false);
@@ -32,7 +33,7 @@ export const Navbar = ({ toggle }) => {
             <Nav>
                 <NavbarContainer>
                     <NavLogo to='/' onClick={toggleHome} alt='logo'>
-                        <NavIcon />
+                        <NavIcon src={logo} alt='logo ZBK interiors' />
                     </NavLogo>
                     <MobileIcon onClick={toggle}>
                         <BiMenuAltRight />

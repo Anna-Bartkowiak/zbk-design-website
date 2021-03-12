@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import {
     SidebarContainer,
     SidebarLogo,
+    SidebarIcon,
     Icon,
     CloseIcon,
     SidebarWrapper,
@@ -9,6 +10,7 @@ import {
     SidebarLink,
     SidebarRoute
 } from './SidebarElements';
+import logo from '../../images/zuzanna_b_kaluc_logo.svg';
 
 const Sidebar = ({ isOpen, toggle }) => {
     const [hover, setHover] = useState(false);
@@ -20,7 +22,7 @@ const Sidebar = ({ isOpen, toggle }) => {
     return (
         <SidebarContainer isOpen={isOpen} onClick={toggle}>
             <SidebarLogo to='/'>
-                ZBK DESIGN
+                <SidebarIcon src={logo} alt='logo ZBK interiors' />
             </SidebarLogo>
             <Icon onClick={toggle}>
                 <CloseIcon />

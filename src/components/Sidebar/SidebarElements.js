@@ -8,7 +8,7 @@ export const SidebarContainer = styled.aside`
     z-index: 999;
     width: 100%;
     height: 100%;
-    background: #fff;
+    background: var(--primaryColor);
     align-items: center;
     top: 0;
     left: 0;
@@ -23,14 +23,19 @@ export const SidebarLogo = styled(LinkRouter) `
     font-size: 2.8rem;
     display: flex;
     align-items: center;
-    margin-top: 2rem;
-    margin-left: 2rem;
-    color: #2a2a2a;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    color: var(--fontColor);
     background-color: transparent;
+    width: 20rem;
 `;
+export const SidebarIcon = styled.img`
+    width: 100%;
+    height: 100%;
+`
 
 export const CloseIcon = styled(VscChromeClose) `
-    color: #2a2a2a;
+    color: var(--fontColor);
     background: transparent;
 `;
 
@@ -45,12 +50,12 @@ export const Icon = styled.div`
 `;
 
 export const SidebarWrapper = styled.div`
-    color: #2a2a2a;
+    color: var(--fontColor);
 `;
 
 export const SidebarMenu = styled.ul`
     display: grid;
-    background: #fff;
+    background: var(--primaryColor);
     grid-template-column: 1fr;
     grid-template-rows: repeat(4, 10rem);
     text-align: center;
@@ -69,11 +74,11 @@ export const SidebarLink = styled(LinkScroll) `
     list-style: none;
     transition: 0.2s ease-in-out;
     text-decoration: none;
-    color: #2a2a2a;
-    background: #fff;
+    color: var(--fontColor);
+    background: var(--primaryColor);
     text-transform: uppercase;
     cursor: pointer;
-    background: linear-gradient(to bottom, #c08d17 0%, #c08d17 100%);
+    background: linear-gradient(to bottom, var(--tertiaryColor) 0%, var(--tertiaryColor) 100%);
     background-position: 0 100%;
     background-repeat: repeat-x;
     background-size: 3px 1px;
@@ -90,15 +95,15 @@ export const SideBtnWrap = styled.div`
 `
 
 export const SidebarRoute = styled(LinkRouter) `
-    background: ${({ primary }) => (primary ? '#2a2a2a' : '#6d6d6d')};
+    background: ${({ primary }) => (primary ? 'var(--fontColor)' : 'var(--fourthColor)')};
     white-space: no-wrap;
     padding: ${({ bigger }) => (bigger ? '1.4rem 2.2rem' : '0.8rem 1rem')};
-    color: #fff;
+    color: var(--primaryColor);
     font-size: ${({ fontbigger }) => (fontbigger ? '1.9rem' : '1.7rem')};
     border-radius: 50px;
     white-space: nowrap;
     padding: 10px 22px;
-    color: #fff;
+    color: var(--primaryColor);
     font-size: 1.6rem;
     font-family: 'Oswald';
     font-weight: 300;
@@ -110,6 +115,6 @@ export const SidebarRoute = styled(LinkRouter) `
 
     &.hover {
         transition: all 0.2s ease-in-out;
-        background: ${({ primary }) => (primary ? '#2a2a2a' : '#6d6d6d')};
+        background: ${({ primary }) => (primary ? 'var(--fontColor)' : 'var(--fourthColor)')};
     }
 `

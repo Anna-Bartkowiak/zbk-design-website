@@ -132,7 +132,7 @@ export const GalleryTextContainer = styled.div`
     font-size: 1.7rem;
     line-height: 2.2rem;
     letter-spacing: 1px;
-    border: 1px solid #928165;
+    border: 1px solid var(--fourthColor);
     display:flex;
     justify-content: center;
     align-items: left;
@@ -159,7 +159,7 @@ export const GalleryH3 = styled.h3`
     display: inline-block;
     font-size: 3rem;
     text-transform: uppercase;
-    background: linear-gradient(to bottom, #c08d17 0%, #c08d17 100%);
+    background: linear-gradient(to bottom, var(--tertiaryColor) 0%, var(--tertiaryColor) 100%);
     background-position: 0 100%;
     background-repeat: repeat-x;
     padding-bottom: .8rem;

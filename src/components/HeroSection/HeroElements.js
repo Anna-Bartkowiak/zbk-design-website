@@ -9,7 +9,7 @@ export const HeroContainer = styled.div`
 
 export const HeroBackground = styled.div`
     background: url(${images}) top center no-repeat;
-    background-color: #e5e5e5;
+    background-color: var(--secondaryColor);
     margin: 0 auto;
     width: 100%;
     height: 53rem;
@@ -50,8 +50,8 @@ export const HeroH1 = styled.h1`
 export const HeroSpan = styled.span`
     padding: 0 1rem;
     box-decoration-break: clone;
-    background-color: #f6f6f6;
-    border: 1px solid #928165;
+    background-color: var(--primaryColor);
+    border: 1px solid var(--fourthColor);
 `
 export const HeroBtnWrapper = styled.div`
     position: absolute;
@@ -72,7 +72,7 @@ export const ArrowRight = styled(IoIosArrowForward) `
     margin-bottom: -0.7rem;
     font-size: 1.75rem;
     background: transparent;
-    color: #e5e5e5;
+    color: var(--secondaryColor);
 `
 
 export const HeroGuotation = styled.div`
@@ -82,9 +82,9 @@ export const HeroGuotation = styled.div`
     padding: 3.5rem;
     font-size: 2rem;
     line-height: 3rem;
-    color: #e5e5e5;
+    color: var(--secondaryColor);
     font-style: oblique;
-    background-color: #928165;
+    background-color: var(--fourthColor);
     font-family: 'Oswald',cursive;
     font-weight: 300;
 
@@ -104,7 +104,7 @@ export const HeroGuotation = styled.div`
 `
 
 export const HeroP = styled.p`
-    border: 1px solid #c08d17;
+    border: 1px solid var(--tertiaryColor);
     padding: 2.5rem;
 
     @media screen and (max-width: 576px) {

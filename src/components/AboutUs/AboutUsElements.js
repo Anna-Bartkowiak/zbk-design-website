@@ -9,7 +9,7 @@ export const AboutUsContainer = styled.div`
     align-items: center;
     max-width: 140rem;
     margin: 12rem auto 0;
-    background-color: #e5e5e5;
+    background-color: var(--secondaryColor);
 
     @media screen and (max-width: 1000px) {
         margin: 10rem auto 0;
@@ -89,7 +89,7 @@ export const AboutUsP = styled.p`
 export const AboutUsItem = styled.div`
 
     &:not(:first-child){
-        border: 1px solid #c08d17;
+        border: 1px solid var(--tertiaryColor);
         padding: 2rem;
     }
 
@@ -126,7 +126,7 @@ export const AboutUsImg = styled.img`
     height: 220px;
     width: 220px;
     border-radius: 50%;
-    border: 1px solid #c08d17;
+    border: 1px solid var(--tertiaryColor);
     overflow: hidden;
 `
 
