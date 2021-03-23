@@ -7,7 +7,9 @@ import {
     FooterH1,
     FooterP,
     FooterLink,
-    FooterImg
+    FooterImg,
+    FooterCopyright,
+    FooterCopyrightP
 } from './FooterElements';
 
 export const Footer = () => {
@@ -33,6 +35,9 @@ export const Footer = () => {
                     <FooterImg className="item-2" />
                 </FooterGrid>
             </FooterWrapper>
+            <FooterCopyright>
+                <FooterCopyrightP>Copyright &copy; 2021 Zuzanna B. Kałuc</FooterCopyrightP>
+            </FooterCopyright>
         </FooterContainer>
     )
 }

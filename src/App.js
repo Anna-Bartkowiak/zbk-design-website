@@ -1,16 +1,34 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Navbar from '../src/components/Navbar';
+import Sidebar from '../src/components/Sidebar';
 import Home from './pages';
+import HomeProject1 from './pages/project1';
+import AboutUsSection from '../src/components/AboutUs';
+import Footer from '../src/components/FooterSection';
 
 export const App = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggle = () => {
+    setIsOpen(!isOpen)
+  };
+
   return (
     <>
       <Router>
+        <Sidebar isOpen={isOpen} toggle={toggle} />
+        <Navbar toggle={toggle} />
         <Switch>
-          <Route exact path="/" component={Home} />
-          {/* <Route path="/signin" component={SignInPage} />
-        <Route path="/calculating" component={CalculatingPage} /> */}
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/project1">
+            <HomeProject1 />
+          </Route>
         </Switch>
+        <AboutUsSection />
+        <Footer />
       </Router>
     </>
   );

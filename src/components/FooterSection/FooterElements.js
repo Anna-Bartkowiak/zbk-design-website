@@ -7,10 +7,11 @@ export const FooterContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 140rem;
-    padding: 10rem 0;
-    margin: 12rem auto 12rem;
-    border: 1px solid var(--fontColor);
+    /* max-width: 140rem; */
+    padding: 9rem 0 7rem;
+    margin: 3rem auto 12rem;
+    /* border: 1px solid var(--fontColor); */
+    position: relative;
 
     @media screen and (max-width: 1000px) {
         margin: 10rem auto 12rem;
@@ -121,6 +122,21 @@ export const FooterP = styled.p``
 
 export const FooterLink = styled(Link) `
     text-decoration: bold;
+`
+
+export const FooterCopyright = styled.div`
+    position: absolute;
+    bottom: -12.1rem;
+    width: 100%;
+    text-align: center;
+    background-color: var(--fontColor);
+`
+
+export const FooterCopyrightP = styled.p`
+    font-family: 'Oswald',cursive;
+    font-size: 1.4rem;
+    line-height: 7.4rem;
+    color: var(--fourthColor);
 `
 
 export default FooterContainer;

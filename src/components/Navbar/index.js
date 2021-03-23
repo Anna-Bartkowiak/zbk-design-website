@@ -42,7 +42,7 @@ export const Navbar = ({ toggle }) => {
                         <NavItem>
                             <NavLinks to="project"
                                 smooth={true}
-                                duration={800}
+                                duration={500}
                                 spy={true}
                                 exact='true'
                                 offset={0}
@@ -52,7 +52,7 @@ export const Navbar = ({ toggle }) => {
                         <NavItem>
                             <NavLinks to="aboutUs"
                                 smooth={true}
-                                duration={800}
+                                duration={500}
                                 spy={true}
                                 exact='true'
                                 offset={0}
@@ -62,7 +62,7 @@ export const Navbar = ({ toggle }) => {
                         <NavItem>
                             <NavLinks to="contact"
                                 smooth={true}
-                                duration={800}
+                                duration={500}
                                 spy={true}
                                 exact='true'
                                 offset={0}
