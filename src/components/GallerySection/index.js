@@ -38,9 +38,9 @@ export const Gallery = () => {
                 </GalleryItem>
                 <GalleryItem className="item-2">
                     <GalleryTextContainer>
-                        <GalleryH3>dom #11</GalleryH3>
-                        <GalleryH4>Dom jednorodzinny na przedmieściach Szczecina, pow. 140 m2</GalleryH4>
-                        <GalleryP>Po analizie potrzeb Inwestorów ustaliliśmy paletę barw w naturalnych odcieniach beżów i szarości oraz listę użytych materiałów. Zaprojektowaliśmy wnętrze w naturalnych materiałach wykończeniowych oddających wrażenie ciepła...</GalleryP>
+                        <GalleryH3>dom #7</GalleryH3>
+                        <GalleryH4>Dom w Mierzynie, pow. 175 m2</GalleryH4>
+                        <GalleryP>Bazę dla aranżacji wnętrz stanowią wysokiej jakości materiały wykończeniowe: dębowy, naturalny fornir , płytki o małych formatach i piękna olejowana drewniana podłoga. Połączenie stonowanej, neutralnej...</GalleryP>
                         <GalleryBtnWrapper>
                             <ButtonGallery
                                 to='project'

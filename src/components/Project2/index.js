@@ -1,6 +1,4 @@
 import React from 'react';
-// import React, { useState } from 'react';
-// import { Button } from '../ButtonElement';
 import {
     ProjectContainer,
     ProjectHero,
@@ -17,48 +15,39 @@ import {
     ProjectOtherGrid,
     ProjectOtherItem,
     ProjectOtherImg
-    // HeroBtnWrapper,
-    // ArrowRight,
-} from './Project1Elements';
-import image1 from '../../images/MainGallery/mainGallery1.jpg';
-import image2 from '../../images/MainGallery/7dom8.jpg';
-import image3 from '../../images/MainGallery/7dom2.jpg';
-import image4 from '../../images/MainGallery/7dom13.jpg';
-import image5 from '../../images/MainGallery/7dom9.jpg';
-import image6 from '../../images/MainGallery/7dom1.jpg';
-import image7 from '../../images/MainGallery/7dom6.jpg';
-import image8 from '../../images/MainGallery/7dom7.jpg';
-import image9 from '../../images/MainGallery/7dom3.jpg';
-import image10 from '../../images/MainGallery/7dom14.jpg';
-import image11 from '../../images/MainGallery/7dom5.jpg';
-import image12 from '../../images/MainGallery/7dom12.jpg';
-import image13 from '../../images/MainGallery/7dom10.jpg';
-import image14 from '../../images/MainGallery/7dom11.jpg';
-import image15 from '../../images/MainGallery/7dom4.jpg';
+} from './Project2Elements';
+import image1 from '../../images/MainGallery/11dom1.jpg';
+import image2 from '../../images/MainGallery/11dom2.jpg';
+import image3 from '../../images/MainGallery/11dom3.jpg';
+import image4 from '../../images/MainGallery/11dom4.jpg';
+import image5 from '../../images/MainGallery/11dom5.jpg';
+import image6 from '../../images/MainGallery/11dom6.jpg';
+import image7 from '../../images/MainGallery/11dom7.jpg';
+import image8 from '../../images/MainGallery/11dom8.jpg';
+import image9 from '../../images/MainGallery/11dom9.jpg';
+import image10 from '../../images/MainGallery/11dom10.jpg';
+import image11 from '../../images/MainGallery/11dom11.jpg';
+import image12 from '../../images/MainGallery/11dom12.jpg';
+import image13 from '../../images/MainGallery/11dom13.jpg';
+import image14 from '../../images/MainGallery/11dom14.jpg';
+import image15 from '../../images/MainGallery/11dom15.jpg';
+import image16 from '../../images/MainGallery/11dom16.jpg';
+import image17 from '../../images/MainGallery/11dom17.jpg';
+import image18 from '../../images/MainGallery/11dom18.jpg';
+import image19 from '../../images/MainGallery/11dom19.jpg';
+import image20 from '../../images/MainGallery/11dom20.jpg';
 
-const Project1Section = () => {
+const Project2Section = () => {
     return (
         <ProjectContainer>
             <ProjectHero>
-                <ProjectH1>Dom #7</ProjectH1>
-                <ProjectH2>Dom w Mierzynie, pow 175 m2</ProjectH2>
+                <ProjectH1>Dom #11</ProjectH1>
+                <ProjectH2>Dom jednorodzinny na przedmieściach Szczecina , pow 140 m2</ProjectH2>
                 <ProjectWrapper>
                     <ProjectTextWrapper>
-                        <ProjectP>Bazę dla aranżacji wnętrz stanowią wysokiej jakości materiały wykończeniowe: dębowy, naturalny fornir , płytki o małych formatach i piękna olejowana drewniana podłoga. Połączenie stonowanej, neutralnej kolorystyki z intrygującymi energetycznymi akcentami <span>ubiera ten salon w stylu skandynawskim</span>. Zgodnie z oczekiwaniami właścicieli powstało ciepłe i  <span>dynamiczne wnętrze w duchu hygge</span>. Na uwagę zasługują fakt że wiele elementów wystroju zostało zaprojektowanych specjalnie na potrzeby tego domu, aby miał on jak najbardziej osobisty i zindywidualizowany charakter.</ProjectP>
+                        <ProjectP>Po <span>analizie potrzeb</span> Inwestorów ustaliliśmy paletę barw w naturalnych odcieniach beżów i szarości oraz listę użytych materiałów. Zaprojektowaliśmy wnętrze w naturalnych materiałach wykończeniowych oddających wrażenie ciepła. Połączyliśmy z charakterystycznym spiekiem o wzorze marmuru oraz <span>złotymi lampami</span>. Inwestorzy zwracają dużą uwagę na oświetlenie, które nie narzuca się w aranżacji jednoczenie nie jest obojętne, ma nowoczesną formę i wysoką jakość. Zastosowano <span>nowoczesne lampy</span> magnetyczne, szynowe zintegrowane z sufitem z możliwością zmiany zastosowanych opraw oświetleniowych. Życzeniem Klientów była efektowna zabudowa ściany telewizyjnej, która byłaby ozdoba salonu. Użyto tu lameli drewnianych i spieku Laminam.</ProjectP>
                     </ProjectTextWrapper>
                 </ProjectWrapper>
-                {/* <HeroBtnWrapper>
-                    <Button
-                        to='project'
-                        onMouseEnter={onHover}
-                        onMouseLeave={onHover}
-                        primary="true"
-                        bigger="true"
-                        fontbigger="true">
-                        Przemyślane i użytkowe projekty
-                        <ArrowRight />
-                    </Button>
-                </HeroBtnWrapper> */}
             </ProjectHero>
             <ProjectGallery>
                 <ProjectGalleryGrid>
@@ -107,6 +96,21 @@ const Project1Section = () => {
                     <ProjectGalleryItem className="item-15">
                         <ProjectGalleryImg src={image15} alt='image15' />
                     </ProjectGalleryItem>
+                    <ProjectGalleryItem className="item-16">
+                        <ProjectGalleryImg src={image16} alt='image16' />
+                    </ProjectGalleryItem>
+                    <ProjectGalleryItem className="item-17">
+                        <ProjectGalleryImg src={image17} alt='image17' />
+                    </ProjectGalleryItem>
+                    <ProjectGalleryItem className="item-18">
+                        <ProjectGalleryImg src={image18} alt='image18' />
+                    </ProjectGalleryItem>
+                    <ProjectGalleryItem className="item-19">
+                        <ProjectGalleryImg src={image19} alt='image19' />
+                    </ProjectGalleryItem>
+                    <ProjectGalleryItem className="item-20">
+                        <ProjectGalleryImg src={image20} alt='image20' />
+                    </ProjectGalleryItem>
                 </ProjectGalleryGrid>
             </ProjectGallery>
             <ProjectOther id="project">
@@ -130,4 +134,4 @@ const Project1Section = () => {
     )
 }
 
-export default Project1Section;
+export default Project2Section;

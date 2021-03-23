@@ -13,21 +13,12 @@ export const FooterContainer = styled.div`
     /* border: 1px solid var(--fontColor); */
     position: relative;
 
-    @media screen and (max-width: 1000px) {
+    /* @media screen and (max-width: 1000px) {
         margin: 10rem auto 12rem;
-    }
+    } */
 
     @media screen and (max-width: 768px) {
-        margin: 8rem;
-        padding: 7rem 0;
-    }
-
-    @media screen and (max-width: 480px) {
-        margin: 8rem 3rem;
-    }
-
-    @media screen and (max-width: 400px) {
-        margin: 6rem 1rem;
+        margin: 3rem auto 8rem;
         padding: 5rem 0;
     }
 `
@@ -37,10 +28,6 @@ export const FooterWrapper = styled.div`
     width: 100%;
     margin: 0 5rem;
     padding: 0 5rem;
-
-    @media screen and (max-width: 1000px) {
-
-    }
 
     @media screen and (max-width: 768px) {
         text-align: center;
@@ -130,6 +117,10 @@ export const FooterCopyright = styled.div`
     width: 100%;
     text-align: center;
     background-color: var(--fontColor);
+
+    @media screen and (max-width: 768px) {
+        bottom: -8.1rem;
+    }
 `
 
 export const FooterCopyrightP = styled.p`

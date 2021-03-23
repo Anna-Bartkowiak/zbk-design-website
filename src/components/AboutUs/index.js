@@ -7,7 +7,6 @@ import {
     AboutUsH2,
     AboutUsH3,
     AboutUsP,
-    AboutUsLink,
     AboutUsImgWrapper,
     AboutUsImg
 } from './AboutUsElements';

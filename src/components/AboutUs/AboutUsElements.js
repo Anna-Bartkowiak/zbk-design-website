@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
 
 export const AboutUsContainer = styled.div`
     padding: 10rem 0;
@@ -158,10 +157,6 @@ export const AboutUsH3 = styled.h3`
     @media screen and (max-width: 580px) {
         font-size: 2.2rem;
     }
-`
-
-export const AboutUsLink = styled(Link) `
-    text-decoration: bold;
 `
 
 export const AboutUsBtnWrapper = styled.div`

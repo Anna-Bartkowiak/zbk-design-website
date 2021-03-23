@@ -111,7 +111,7 @@ export const GalleryImage = styled.img`
     height: 100%;
     width: 100%;
     overflow: hidden;
-    -webkit-filter: grayscale(100%);
+    /* -webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
     -webkit-transform: scale(1);
 	transform: scale(1);
@@ -123,7 +123,7 @@ export const GalleryImage = styled.img`
 	filter: grayscale(0);
     -webkit-transform: scale(1.2);
 	transform: scale(1.2);
-    overflow: hidden;
+    overflow: hidden; */
 }
 `
 
