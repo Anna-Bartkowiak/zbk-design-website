@@ -40,6 +40,16 @@ export const Navbar = ({ toggle }) => {
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
+                            <NavLinks to="offer"
+                                smooth={true}
+                                duration={500}
+                                spy={true}
+                                exact='true'
+                                offset={0}
+                                activeClass='active'
+                            >oferta</NavLinks>
+                        </NavItem>
+                        <NavItem>
                             <NavLinks to="project"
                                 smooth={true}
                                 duration={500}

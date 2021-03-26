@@ -163,7 +163,7 @@ export const GalleryH3 = styled.h3`
     background-position: 0 100%;
     background-repeat: repeat-x;
     padding-bottom: .8rem;
-    background-size: 3px 22px;
+    background-size: 3px 18px;
 
     @media screen and (max-width: 1000px) {
         font-size: 2.6rem;
