@@ -6,7 +6,12 @@ import {
     OfferH3,
     OfferP,
     OfferTabWrapper,
-    OfferPWrapper
+    OfferPWrapper,
+    OfferH3Grid,
+    OfferGrid,
+    OfferGridItem,
+    OfferGridNumber,
+    OfferGridP
 } from './OfferElement';
 import {
     Tabs as OfferTabs,
@@ -77,6 +82,63 @@ const OfferSection = () => {
                     </OfferTabPanel>
                 </OfferTabs>
             </OfferTabWrapper>
+            <OfferH3Grid>Jak projektujemy?</OfferH3Grid>
+            <OfferGrid>
+                <OfferGridItem class="item-1">
+                    <OfferGridNumber>1</OfferGridNumber>
+                </OfferGridItem>
+                <OfferGridItem class="item-2">
+                    <OfferGridP><span>kontakt</span>Zadzwoń lub napisz do nas maila z zapytaniem o ofertę. W swojej wiadomości zawrzyj jak najwięcej informacji co do swoich oczekiwań (jeżeli oczywiście już takie masz) i danych, np. inspiracji z sieci, rysunków budowlanych, zdjęć miejsca. Im więcej będziemy wiedzieć o twoich potrzebach, tym rzetelniejsza będzie oferta. Wycena usługi projektowej jest skomplikowana - bierzemy pod uwagę nie tylko metraż pomieszczeń, ale też trudność aranżacji i wybrany przez ciebie styl.</OfferGridP>
+                </OfferGridItem>
+                <OfferGridItem class="item-3">
+                    <OfferGridP><span>umowa</span> Jeżeli zaakceptujesz ofertę, podpiszemy umowę, która zapewni formalne bezpieczeństwo obu stron transakcji.</OfferGridP>
+                </OfferGridItem>
+                <OfferGridItem class="item-4">
+                    <OfferGridNumber>2</OfferGridNumber>
+                </OfferGridItem>
+                <OfferGridItem class="item-5">
+                    <OfferGridNumber>3</OfferGridNumber>
+                </OfferGridItem>
+                <OfferGridItem class="item-6">
+                    <OfferGridP><span>ankieta i rozmowa</span>To kolejny, bardzo ważny element całego procesu, który wystartuje koncepcję naszego wnętrza. Zależnie od twoich preferencji, ankietę możemy wypełnić wspólnie podczas spotkania lub możesz to zrobić z rodziną w zaciszu swojego domu (ankieta w formie elektronicznej). W ankiecie odpowiesz na podstawowe pytania dot. twoich potrzeb, ale pojawią się też już te bardziej szczegółowe. Wszystko inne, co ciężko jest ubrać w tekst, omówimy na spotkaniu.</OfferGridP>
+                </OfferGridItem>
+                <OfferGridItem class="item-7">
+                    <OfferGridP><span>moodboard</span>Projektowanie rozpoczynamy od wybrania przykładowych materiałów, mebli i inspiracji, które stworzą tzw. moodboard - tablicę materiałów i inspiracji. Takie zestawienie pokaże jak elementy wnętrza, kolory i formy łączą się ze sobą. Możemy ja łatwo modyfikować i wprowadzać nowe cechy.</OfferGridP>
+                </OfferGridItem>
+                <OfferGridItem class="item-8">
+                    <OfferGridNumber>4</OfferGridNumber>
+                </OfferGridItem>
+                <OfferGridItem class="item-9">
+                    <OfferGridNumber>5</OfferGridNumber>
+                </OfferGridItem>
+                <OfferGridItem class="item-10">
+                    <OfferGridP><span>układ</span>Równocześnie zajmujemy się przygotowaniem dla ciebie układu funkcjonalnego twojego wnętrza, czyli rzutu poziomego, wskazującego, gdzie będą stały najważniejsze meble i ile miejsca zajmą zabudowy, a ile zostanie przestrzeni swobodnej.</OfferGridP>
+                </OfferGridItem>
+                <OfferGridItem class="item-11">
+                    <OfferGridP><span>model 3d</span>Następnie zaczynamy tworzyć MODEL 3D na podstawie wcześniej podjętych decyzji. Jest to najlepsza forma prezentacji powstającego projektu - pokażemy jak w przestrzeni wyglądają nasze pomysły i wybrane meble. Praca nad modelem zajmuje najwięcej czasu. Zazwyczaj zaczynamy od jednego z pomieszczeń (najważniejszego), a po wprowadzeniu twoich uwag zabieramy się za kolejne, unikając błędów i stosując wytyczne z poprzedniego.</OfferGridP>
+                </OfferGridItem>
+                <OfferGridItem class="item-12">
+                    <OfferGridNumber>6</OfferGridNumber>
+                </OfferGridItem>
+                <OfferGridItem class="item-13">
+                    <OfferGridNumber>7</OfferGridNumber>
+                </OfferGridItem>
+                <OfferGridItem class="item-14">
+                    <OfferGridP><span>dobór materiałów</span>Kiedy model jest już gotowy i w większości zatwierdzamy, wybieramy konkretne materiały, meble i oświetlenie. Praca w modelu na hipotetycznych decyzjach pozwalała na szybkie zmiany, teraz już podjęte decyzje wprowadzamy w życie. Zależnie od formy naszej współpracy (na miejscu w Szczecinie lub zdalnie), spotykamy się w wybranych hurtowniach i wybieramy materiały porównując je ze sobą.</OfferGridP>
+                </OfferGridItem>
+                <OfferGridItem class="item-15">
+                    <OfferGridP><span>skład</span>Kiedy wszystkie decyzje są już podjęte, zaczynamy prace nad rysunkami technicznymi i inną dokumentacją twojego projektu. Po wykonaniu tego zadania projekt drukujemy i składamy w dwóch egzemplarzach.</OfferGridP>
+                </OfferGridItem>
+                <OfferGridItem class="item-16">
+                    <OfferGridNumber>8</OfferGridNumber>
+                </OfferGridItem>
+                <OfferGridItem class="item-17">
+                    <OfferGridNumber>9</OfferGridNumber>
+                </OfferGridItem>
+                <OfferGridItem class="item-18">
+                    <OfferGridP><span>finał</span>Projekt jest ukończony! Otrzymasz go w formie drukowanej i elektronicznej. Jeżeli masz życzenie, pokierujemy cię do sprawdzonych fachowców od wykończenia i stolarki.</OfferGridP>
+                </OfferGridItem>
+            </OfferGrid>
         </OfferContainer >
     )
 }

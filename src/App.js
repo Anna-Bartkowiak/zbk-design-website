@@ -5,8 +5,10 @@ import Sidebar from '../src/components/Sidebar';
 import Home from './pages';
 import HomeProject1 from './pages/project1';
 import HomeProject2 from './pages/project2';
+import OfferSection from '../src/components/Offer';
 import AboutUsSection from '../src/components/AboutUs';
 import Footer from '../src/components/FooterSection';
+
 
 export const App = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,6 +33,7 @@ export const App = () => {
             <HomeProject2 />
           </Route>
         </Switch>
+        <OfferSection />
         <AboutUsSection />
         <Footer />
       </Router>
