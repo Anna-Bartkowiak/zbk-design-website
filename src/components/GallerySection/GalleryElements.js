@@ -156,7 +156,7 @@ export const GalleryTextContainer = styled.div`
 `
 
 export const GalleryH3 = styled.h3`
-    display: inline-block;
+    align-self: flex-start;
     font-size: 3rem;
     text-transform: uppercase;
     background: linear-gradient(to bottom, var(--tertiaryColor) 0%, var(--tertiaryColor) 100%);

@@ -45,7 +45,7 @@ export const Navbar = ({ toggle }) => {
                                 duration={500}
                                 spy={true}
                                 exact='true'
-                                offset={0}
+                                offset={-80}
                                 activeClass='active'
                             >oferta</NavLinks>
                         </NavItem>
@@ -55,7 +55,7 @@ export const Navbar = ({ toggle }) => {
                                 duration={500}
                                 spy={true}
                                 exact='true'
-                                offset={0}
+                                offset={-100}
                                 activeClass='active'
                             >projekty</NavLinks>
                         </NavItem>
@@ -65,7 +65,7 @@ export const Navbar = ({ toggle }) => {
                                 duration={500}
                                 spy={true}
                                 exact='true'
-                                offset={0}
+                                offset={-90}
                                 activeClass='active'
                             >o mnie</NavLinks>
                         </NavItem>

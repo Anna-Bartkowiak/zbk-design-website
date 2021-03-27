@@ -15,10 +15,10 @@ import {
 } from './OfferElement';
 import {
     Tabs as OfferTabs,
-    Tab as OfferTab,
     TabPanel as OfferTabPanel,
     TabList as OfferTabList
-} from 'react-web-tabs';
+} from "react-web-tabs";
+import { OfferTab } from './OfferElement';
 
 const OfferSection = () => {
     const [activeIndex, setActiveIndex] = useState(2);

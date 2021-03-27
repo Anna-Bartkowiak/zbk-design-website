@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Tabs, Tab, TabPanel, TabList } from "react-web-tabs";
 
 export const OfferContainer = styled.div`
     max-width: 140rem;
@@ -87,7 +88,7 @@ export const OfferTabWrapper = styled.div`
     padding: 0 12rem 12rem;
 `
 
-export const OfferTab = styled.button`
+export const OfferTab = styled(Tab) `
     background: var(--tertiaryColor);
     white-space: no-wrap;
     padding: 0.8rem 1rem;

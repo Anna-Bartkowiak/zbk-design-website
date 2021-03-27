@@ -160,14 +160,6 @@ export const ProjectGalleryItem = styled.div`
 	display: flex;
     justify-content: center;
     overflow: hidden;
-
-	&:nth-child(odd) {
-		border: 1px solid var(--tertiaryColor);
-	}
-
-	&:nth-child(even) {
-		border: 1px solid var(--fontColor);
-	}
 `
 
 export const ProjectGalleryImg = styled.img`
@@ -231,7 +223,7 @@ export const ProjectOtherItem = styled.div`
     overflow: hidden;
 `
 
-export const ProjectOtherImg = styled.div`
+export const ProjectOtherImg = styled.img`
     height: 100%;
     width: 100%;
     /* overflow: hidden; */
