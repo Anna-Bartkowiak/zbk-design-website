@@ -127,6 +127,7 @@ export const AboutUsImg = styled.img`
     border-radius: 50%;
     border: 1px solid var(--tertiaryColor);
     overflow: hidden;
+    object-fit: cover;
 `
 
 export const AboutUsH2 = styled.h2`

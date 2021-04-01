@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { ButtonOtherProject } from '../ButtonElement';
 import {
     ProjectContainer,
     ProjectHero,
@@ -14,7 +15,8 @@ import {
     ProjectOther,
     ProjectOtherGrid,
     ProjectOtherItem,
-    ProjectOtherImg
+    ProjectOtherImg,
+    ProjectOtherBtnWrapper,
 } from './Project2Elements';
 import image1 from '../../images/MainGallery/11dom1.jpg';
 import image2 from '../../images/MainGallery/11dom2.jpg';
@@ -36,8 +38,18 @@ import image17 from '../../images/MainGallery/11dom17.jpg';
 import image18 from '../../images/MainGallery/11dom18.jpg';
 import image19 from '../../images/MainGallery/11dom19.jpg';
 import image20 from '../../images/MainGallery/11dom20.jpg';
+import imageOther1 from '../../images/MainGallery/7dom1.jpg';
+import imageOther2 from '../../images/MainGallery/flat_35m_MainGallery.jpg';
+import imageOther3 from '../../images/MainGallery/flat_65m_MainGallery.jpg';
 
 const Project2Section = () => {
+
+    const [hover, setHover] = useState(false);
+
+    const onHover = () => {
+        setHover(!hover);
+    };
+
     return (
         <ProjectContainer>
             <ProjectHero>
@@ -116,17 +128,64 @@ const Project2Section = () => {
             <ProjectOther id="project">
                 <ProjectH1>Inne projekty</ProjectH1>
                 <ProjectOtherGrid>
-                    <ProjectOtherItem className="item-12">
-                        <ProjectOtherImg src={image12} alt='image12' />
+                    <ProjectOtherItem>
+                        <ProjectOtherImg
+                            src={imageOther1}
+                            alt='dom w stylu skandynawskim, salon z drewnianą zabudową, czarna lampa w jadalni,kuchnia w heksagony, jodełka na ścianie, czarno biała łazienka'
+                        />
+                        <ProjectOtherBtnWrapper>
+                            <ButtonOtherProject
+                                to="project1"
+                                onMouseEnter={onHover}
+                                onMouseLeave={onHover}
+                                primary="true"
+                                bigger="true"
+                                fontbigger="true">
+                                dom #7
+                            </ButtonOtherProject>
+                        </ProjectOtherBtnWrapper>
                     </ProjectOtherItem>
-                    <ProjectOtherItem className="item-13">
-                        <ProjectOtherImg src={image13} alt='image13' />
+                    <ProjectOtherItem>
+                        <ProjectOtherImg src={imageOther2} alt='Boazeria w salonie, styl Hamptons, projekt pod klucz, apartament nad morzem, aneks kuchenny, tapicerowany zagłówek, łóżko kontynentalne w sypialni, granatowy beżowy salon. projekt wnętrz apartamentu na wynajem. wiklinowy żyrandol' />
+                        <ProjectOtherBtnWrapper>
+                            <ButtonOtherProject
+                                to='project'
+                                onMouseEnter={onHover}
+                                onMouseLeave={onHover}
+                                primary="true"
+                                bigger="true"
+                                fontbigger="true">
+                                apartament #3
+                            </ButtonOtherProject>
+                        </ProjectOtherBtnWrapper>
                     </ProjectOtherItem>
-                    <ProjectOtherItem className="item-14">
-                        <ProjectOtherImg src={image14} alt='image14' />
+                    <ProjectOtherItem>
+                        <ProjectOtherImg src={imageOther3} alt='image14' />
+                        <ProjectOtherBtnWrapper>
+                            <ButtonOtherProject
+                                to='project'
+                                onMouseEnter={onHover}
+                                onMouseLeave={onHover}
+                                primary="true"
+                                bigger="true"
+                                fontbigger="true">
+                                dom #5
+                            </ButtonOtherProject>
+                        </ProjectOtherBtnWrapper>
                     </ProjectOtherItem>
-                    <ProjectOtherItem className="item-15">
+                    <ProjectOtherItem>
                         <ProjectOtherImg src={image15} alt='image15' />
+                        <ProjectOtherBtnWrapper>
+                            <ButtonOtherProject
+                                to='project'
+                                onMouseEnter={onHover}
+                                onMouseLeave={onHover}
+                                primary="true"
+                                bigger="true"
+                                fontbigger="true">
+                                dom #8
+                            </ButtonOtherProject>
+                        </ProjectOtherBtnWrapper>
                     </ProjectOtherItem>
                 </ProjectOtherGrid>
             </ProjectOther>

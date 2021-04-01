@@ -29,10 +29,26 @@ const Sidebar = ({ isOpen, toggle }) => {
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarLink to='offer' onClick={toggle}>oferta</SidebarLink>
-                    <SidebarLink to='project' onClick={toggle}>projekty</SidebarLink>
-                    <SidebarLink to='aboutUs' onClick={toggle}>o mnie</SidebarLink>
-                    <SidebarLink to='contact' onClick={toggle}>kontakt</SidebarLink>
+                    <SidebarLink
+                        to='offer'
+                        onClick={toggle}
+                        offset={-80}
+                    >oferta</SidebarLink>
+                    <SidebarLink
+                        to='project'
+                        onClick={toggle}
+                        offset={-100}
+                    >projekty</SidebarLink>
+                    <SidebarLink
+                        to='aboutUs'
+                        onClick={toggle}
+                        offset={-80}
+                    >o mnie</SidebarLink>
+                    <SidebarLink
+                        to='contact'
+                        onClick={toggle}
+                        offset={-80}
+                    >kontakt</SidebarLink>
                 </SidebarMenu>
             </SidebarWrapper>
         </SidebarContainer >

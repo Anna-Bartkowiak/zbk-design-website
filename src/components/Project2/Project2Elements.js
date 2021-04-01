@@ -174,6 +174,7 @@ export const ProjectGalleryImg = styled.img`
 	height: 100%;
     width: 100%;
     overflow: hidden;
+    object-fit: cover;
 `
 
 export const ProjectOther = styled.div`
@@ -193,7 +194,7 @@ export const ProjectOtherGrid = styled.div`
     grid-template-columns: repeat(4
 	, 1fr);
     grid-template-rows: 1fr;
-    gap: 2rem;
+    gap: 1rem;
 
     @media screen and (max-width: 768px) {
         grid-template-columns: repeat(2
@@ -227,17 +228,19 @@ export const ProjectOtherGrid = styled.div`
 
 export const ProjectOtherItem = styled.div`
     display: flex;
+    flex-direction: column;
     justify-content: center;
     overflow: hidden;
 `
 
-export const ProjectOtherImg = styled.div`
+export const ProjectOtherImg = styled.img`
     height: 100%;
     width: 100%;
-    /* overflow: hidden; */
-    /* -webkit-filter: grayscale(100%);
-	filter: grayscale(100%); */
-    /* -webkit-transform: scale(1);
+    overflow: hidden;
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+    object-fit: cover;
+    -webkit-transform: scale(1);
 	transform: scale(1);
 	-webkit-transition: .5s ease-in-out;
 	transition: .5s ease-in-out;
@@ -245,7 +248,9 @@ export const ProjectOtherImg = styled.div`
     &:hover {
     -webkit-filter: grayscale(0);
 	filter: grayscale(0);
-    -webkit-transform: scale(1);
-	transform: scale(1);
-    overflow: hidden; */
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+    overflow: hidden;
 `
+
+export const ProjectOtherBtnWrapper = styled.div``

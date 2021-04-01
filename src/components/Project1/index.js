@@ -1,6 +1,5 @@
-import React from 'react';
-// import React, { useState } from 'react';
-// import { Button } from '../ButtonElement';
+import React, { useState } from 'react';
+import { ButtonOtherProject } from '../ButtonElement';
 import {
     ProjectContainer,
     ProjectHero,
@@ -16,9 +15,8 @@ import {
     ProjectOther,
     ProjectOtherGrid,
     ProjectOtherItem,
-    ProjectOtherImg
-    // HeroBtnWrapper,
-    // ArrowRight,
+    ProjectOtherImg,
+    ProjectOtherBtnWrapper,
 } from './Project1Elements';
 import image1 from '../../images/MainGallery/mainGallery1.jpg';
 import image2 from '../../images/MainGallery/7dom8.jpg';
@@ -35,8 +33,18 @@ import image12 from '../../images/MainGallery/7dom12.jpg';
 import image13 from '../../images/MainGallery/7dom10.jpg';
 import image14 from '../../images/MainGallery/7dom11.jpg';
 import image15 from '../../images/MainGallery/7dom4.jpg';
+import imageOther1 from '../../images/MainGallery/11dom1.jpg';
+import imageOther2 from '../../images/MainGallery/flat_35m_MainGallery.jpg';
+import imageOther3 from '../../images/MainGallery/flat_65m_MainGallery.jpg';
 
 const Project1Section = () => {
+
+    const [hover, setHover] = useState(false);
+
+    const onHover = () => {
+        setHover(!hover);
+    };
+
     return (
         <ProjectContainer>
             <ProjectHero>
@@ -47,18 +55,6 @@ const Project1Section = () => {
                         <ProjectP>Bazę dla aranżacji wnętrz stanowią wysokiej jakości materiały wykończeniowe: dębowy, naturalny fornir , płytki o małych formatach i piękna olejowana drewniana podłoga. Połączenie stonowanej, neutralnej kolorystyki z intrygującymi energetycznymi akcentami <span>ubiera ten salon w stylu skandynawskim</span>. Zgodnie z oczekiwaniami właścicieli powstało ciepłe i  <span>dynamiczne wnętrze w duchu hygge</span>. Na uwagę zasługują fakt że wiele elementów wystroju zostało zaprojektowanych specjalnie na potrzeby tego domu, aby miał on jak najbardziej osobisty i zindywidualizowany charakter.</ProjectP>
                     </ProjectTextWrapper>
                 </ProjectWrapper>
-                {/* <HeroBtnWrapper>
-                    <Button
-                        to='project'
-                        onMouseEnter={onHover}
-                        onMouseLeave={onHover}
-                        primary="true"
-                        bigger="true"
-                        fontbigger="true">
-                        Przemyślane i użytkowe projekty
-                        <ArrowRight />
-                    </Button>
-                </HeroBtnWrapper> */}
             </ProjectHero>
             <ProjectGallery>
                 <ProjectGalleryGrid>
@@ -113,16 +109,63 @@ const Project1Section = () => {
                 <ProjectH1>Inne projekty</ProjectH1>
                 <ProjectOtherGrid>
                     <ProjectOtherItem className="item-12">
-                        <ProjectOtherImg src={image12} alt='image12' />
+                        <ProjectOtherImg
+                            src={imageOther1}
+                            alt='nowoczesna łazienka, marmur, spiek Laminam, dekoracyjne lamele,  jasny salon, podłoga w jodełkę w salonie, wielkoformatowe płyty w kuchni, marmur w łazience, wolnostojący kominek, projekt wnętrz Szczecin'
+                        />
+                        <ProjectOtherBtnWrapper>
+                            <ButtonOtherProject
+                                to="project2"
+                                onMouseEnter={onHover}
+                                onMouseLeave={onHover}
+                                primary="true"
+                                bigger="true"
+                                fontbigger="true">
+                                dom #11
+                            </ButtonOtherProject>
+                        </ProjectOtherBtnWrapper>
                     </ProjectOtherItem>
                     <ProjectOtherItem className="item-13">
-                        <ProjectOtherImg src={image13} alt='image13' />
+                        <ProjectOtherImg src={imageOther2} alt='Boazeria w salonie, styl Hamptons, projekt pod klucz, apartament nad morzem, aneks kuchenny, tapicerowany zagłówek, łóżko kontynentalne w sypialni, granatowy beżowy salon. projekt wnętrz apartamentu na wynajem. wiklinowy żyrandol' />
+                        <ProjectOtherBtnWrapper>
+                            <ButtonOtherProject
+                                to="project2"
+                                onMouseEnter={onHover}
+                                onMouseLeave={onHover}
+                                primary="true"
+                                bigger="true"
+                                fontbigger="true">
+                                apartament #3
+                            </ButtonOtherProject>
+                        </ProjectOtherBtnWrapper>
                     </ProjectOtherItem>
                     <ProjectOtherItem className="item-14">
-                        <ProjectOtherImg src={image14} alt='image14' />
+                        <ProjectOtherImg src={imageOther3} alt='image14' />
+                        <ProjectOtherBtnWrapper>
+                            <ButtonOtherProject
+                                to="project2"
+                                onMouseEnter={onHover}
+                                onMouseLeave={onHover}
+                                primary="true"
+                                bigger="true"
+                                fontbigger="true">
+                                dom #5
+                            </ButtonOtherProject>
+                        </ProjectOtherBtnWrapper>
                     </ProjectOtherItem>
                     <ProjectOtherItem className="item-15">
                         <ProjectOtherImg src={image15} alt='image15' />
+                        <ProjectOtherBtnWrapper>
+                            <ButtonOtherProject
+                                to="project2"
+                                onMouseEnter={onHover}
+                                onMouseLeave={onHover}
+                                primary="true"
+                                bigger="true"
+                                fontbigger="true">
+                                dom #8
+                            </ButtonOtherProject>
+                        </ProjectOtherBtnWrapper>
                     </ProjectOtherItem>
                 </ProjectOtherGrid>
             </ProjectOther>

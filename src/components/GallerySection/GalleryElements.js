@@ -110,6 +110,7 @@ export const GalleryGrid = styled.div`
 export const GalleryImage = styled.img`
     height: 100%;
     width: 100%;
+    object-fit: cover;
     overflow: hidden;
     /* -webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
@@ -167,7 +168,7 @@ export const GalleryH3 = styled.h3`
 
     @media screen and (max-width: 1000px) {
         font-size: 2.6rem;
-        background-size: 2px 18px;
+        background-size: 2px 16px;
     }
 
     @media screen and (max-width: 768px) {
@@ -176,7 +177,6 @@ export const GalleryH3 = styled.h3`
 
     @media screen and (max-width: 576px) {
         font-size: 2.3rem;
-        background-size: 2px 6px;
     }
 `
 

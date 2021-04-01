@@ -21,13 +21,22 @@ export const Footer = () => {
                         <FooterH1>kontakt.</FooterH1>
                         <FooterP>Zuzanna Bartoszewska-Kałuc Interiors</FooterP>
                         <FooterP>
-                            <FooterLink href='tel:+48667806802'>+48 667 806 802</FooterLink>
+                            <FooterLink
+                                href='tel:+48667806802'
+                                target='_blank'
+                            >+48 667 806 802</FooterLink>
                         </FooterP>
                         <FooterP>
-                            <FooterLink href="mailto:zbkdesign@zbkdesign.pl" role="button">zbkdesign@zbkdesign.pl</FooterLink>
+                            <FooterLink
+                                href='mailto:zbkdesign@zbkdesign.pl'
+                                target='_blank'
+                            >zbkdesign@zbkdesign.pl</FooterLink>
                         </FooterP>
                         <FooterP>
-                            <FooterLink>Facebook</FooterLink>
+                            <FooterLink
+                                href='https://www.facebook.com/ZBK.projektowaniewnetrz'
+                                target='_blank'
+                            >Facebook</FooterLink>
                         </FooterP>
                         <FooterP>ul. Kolorowa 29</FooterP>
                         <FooterP>72-006 Mierzyn</FooterP>
