@@ -102,7 +102,7 @@ export const ProjectGalleryGrid = styled.div`
 	display: grid;
     grid-template-columns: repeat(3
 	, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     gap: 1rem;
 
     @media screen and (max-width: 1000px) {
@@ -111,12 +111,12 @@ export const ProjectGalleryGrid = styled.div`
     }
 
     @media screen and (max-width: 768px) {
-        grid-template-rows: 31rem 31rem 31rem 31rem 31rem;
+        grid-template-rows: 31rem 31rem 31rem;
     }
 
     @media screen and (max-width: 576px) {
         grid-template-columns: 100%;
-        grid-template-rows: repeat(15, 35rem);
+        grid-template-rows: repeat(8, 35rem);
         grid-template-areas:
             "item1"
             "item2"
@@ -124,15 +124,7 @@ export const ProjectGalleryGrid = styled.div`
             "item4"
             "item5"
             "item6"
-            "item8"
-            "item7"
-            "item9"
-			"item10"
-            "item11"
-            "item12"
-            "item13"
-            "item14"
-            "item15";
+            "item8";
 
         .item-1 {
             grid-area: item1;

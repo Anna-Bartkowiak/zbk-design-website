@@ -49,19 +49,19 @@ export const GalleryItem = styled.div`
 export const GalleryGrid = styled.div`
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 50rem 50rem 50rem 50rem 50rem;
+    grid-template-rows: 50rem 50rem 50rem 50rem;
 
     @media screen and (max-width: 1000px) {
-        grid-template-rows: 43rem 43rem 43rem 43rem 43rem;
+        grid-template-rows: 43rem 43rem 43rem 43rem;
     }
 
     @media screen and (max-width: 768px) {
-        grid-template-rows: 31rem 31rem 31rem 31rem 31rem;
+        grid-template-rows: 31rem 31rem 31rem 31rem;
     }
 
     @media screen and (max-width: 576px) {
         grid-template-columns: 100%;
-        grid-template-rows: repeat(10, 35rem);
+        grid-template-rows: repeat(8, 35rem);
         grid-template-areas:
             "item1"
             "item2"
@@ -70,9 +70,7 @@ export const GalleryGrid = styled.div`
             "item5"
             "item6"
             "item8"
-            "item7"
-            "item9"
-            "item10";
+            "item7";
 
         .item-1 {
             grid-area: item1;
@@ -97,12 +95,6 @@ export const GalleryGrid = styled.div`
         }
         .item-8 {
             grid-area: item8;
-        }
-        .item-9 {
-            grid-area: item9;
-        }
-        .item-10 {
-            grid-area: item10;
         }
     }
 `
@@ -219,12 +211,7 @@ export const GalleryP = styled.p`
     }
 `
 
-export const GalleryBtnWrapper = styled.div`
-
-    @media screen and (max-width: 576px) {
-        text-align: center;
-    }
-`
+export const GalleryBtnWrapper = styled.div``
 
 export const ArrowRight = styled(VscArrowSmallRight) `
     margin-left: 2rem;

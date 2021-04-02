@@ -51,7 +51,7 @@ export const Gallery = () => {
                                 bigger="true"
                                 fontbigger="true">
                                 <ArrowLeft />
-                                galeria
+                                sprawdź projekt
                             </ButtonGallery>
                         </GalleryBtnWrapper>
                     </GalleryTextContainer>
@@ -63,13 +63,13 @@ export const Gallery = () => {
                         <GalleryP>Po analizie potrzeb Inwestorów ustaliliśmy paletę barw w naturalnych odcieniach beżów i szarości oraz listę użytych materiałów. Zaprojektowaliśmy wnętrze w naturalnych materiałach wykończeniowych oddających wrażenie ciepła...</GalleryP>
                         <GalleryBtnWrapper>
                             <ButtonGallery
-                                to='project'
+                                to='project2'
                                 onMouseEnter={onHover}
                                 onMouseLeave={onHover}
                                 primary="true"
                                 bigger="true"
                                 fontbigger="true">
-                                galeria
+                                sprawdź projekt
                                 <ArrowRight />
                             </ButtonGallery>
                         </GalleryBtnWrapper>
@@ -88,14 +88,14 @@ export const Gallery = () => {
                         <GalleryP>Projekt wnętrza zrealizowano w opcji pod klucz. Nadmorski klimat mieszkania z nutą zauważalnego luksusu, osiągnięcie takiego efektu wnętrza przyświecało projektantowi tego apartamentu w Kołobrzegu...</GalleryP>
                         <GalleryBtnWrapper>
                             <ButtonGallery
-                                to='project'
+                                to='project3'
                                 onMouseEnter={onHover}
                                 onMouseLeave={onHover}
                                 primary="true"
                                 bigger="true"
                                 fontbigger="true">
                                 <ArrowLeft />
-                                galeria
+                                sprawdź projekt
                             </ButtonGallery>
                         </GalleryBtnWrapper>
                     </GalleryTextContainer>
@@ -107,42 +107,20 @@ export const Gallery = () => {
                         <GalleryP>W zaprojektowanym przez Zuzannę B. Kałuc domu harmonijnie przenika się to, co nowoczesne z klasyką, a sztuka i funkcjonalność tworzą niezwykłe połączenie. Aranżacja wnętrz w stylu nowojorskim oparta została o...</GalleryP>
                         <GalleryBtnWrapper>
                             <ButtonGallery
-                                to='project'
+                                to='project4'
                                 onMouseEnter={onHover}
                                 onMouseLeave={onHover}
                                 primary="true"
                                 bigger="true"
                                 fontbigger="true">
-                                galeria
+                                sprawdź projekt
                                 <ArrowRight />
                             </ButtonGallery>
                         </GalleryBtnWrapper>
                     </GalleryTextContainer>
                 </GalleryItem>
                 <GalleryItem className="item-8">
-                    <GalleryImage src={image4} alt='nowoczesna kuchnia, luksusowy salon, kryształ, projekt wnętrza w stylu nowojorskim, czarne dodatki, sztuka, obraz na ścianie, klasyczne meble, antyczne meble w salonie' />
-                </GalleryItem>
-                <GalleryItem className="item-9">
-                    <GalleryImage src={image3} alt='image3' />
-                </GalleryItem>
-                <GalleryItem className="item-10">
-                    <GalleryTextContainer>
-                        <GalleryH3>dom #8</GalleryH3>
-                        <GalleryH4>dom jednorodzinny w mierzynie, pow. 140 m2</GalleryH4>
-                        <GalleryP>Po analizie potrzeb Inwestorów ustaliliśmy paletę barw w naturalnych odcieniach beżów i szarości oraz listę użytych materiałów. Zaprojektowaliśmy wnętrze w naturalnych materiałach wykończeniowych oddających wrażenie ciepła...</GalleryP>
-                        <GalleryBtnWrapper>
-                            <ButtonGallery
-                                to='project'
-                                onMouseEnter={onHover}
-                                onMouseLeave={onHover}
-                                primary="true"
-                                bigger="true"
-                                fontbigger="true">
-                                <ArrowLeft />
-                                galeria
-                            </ButtonGallery>
-                        </GalleryBtnWrapper>
-                    </GalleryTextContainer>
+                    <GalleryImage src={image3} alt='nowoczesna kuchnia, luksusowy salon, kryształ, projekt wnętrza w stylu nowojorskim, czarne dodatki, sztuka, obraz na ścianie, klasyczne meble, antyczne meble w salonie' />
                 </GalleryItem>
             </GalleryGrid>
         </GalleryContainer>

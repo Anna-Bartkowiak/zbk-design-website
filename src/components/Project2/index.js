@@ -40,7 +40,7 @@ import image19 from '../../images/MainGallery/11dom19.jpg';
 import image20 from '../../images/MainGallery/11dom20.jpg';
 import imageOther1 from '../../images/MainGallery/7dom1.jpg';
 import imageOther2 from '../../images/MainGallery/flat_35m_MainGallery.jpg';
-import imageOther3 from '../../images/MainGallery/flat_65m_MainGallery.jpg';
+import imageOther3 from '../../images/MainGallery/house_140m_imgMainGallery.jpg';
 
 const Project2Section = () => {
 
@@ -64,64 +64,104 @@ const Project2Section = () => {
             <ProjectGallery>
                 <ProjectGalleryGrid>
                     <ProjectGalleryItem className="item-1">
-                        <ProjectGalleryImg src={image1} alt='image1' />
+                        <ProjectGalleryImg
+                            src={image1}
+                            alt='nowoczesna łazienka, marmur, spiek Laminam, dekoracyjne lamele, jasny salon, podłoga w jodełkę w salonie, wielkoformatowe płyty w kuchni, marmur w łazience, wolnostojący kominek, projekt wnętrz Szczecin' />
                     </ProjectGalleryItem>
                     <ProjectGalleryItem className="item-2">
-                        <ProjectGalleryImg src={image2} alt='image2' />
+                        <ProjectGalleryImg
+                            src={image2}
+                            alt='nowoczesna łazienka, marmur, spiek Laminam, dekoracyjne lamele, jasny salon, podłoga w jodełkę w salonie, wielkoformatowe płyty w kuchni, marmur w łazience, wolnostojący kominek, projekt wnętrz Szczecin' />
                     </ProjectGalleryItem>
                     <ProjectGalleryItem className="item-3">
-                        <ProjectGalleryImg src={image3} alt='image3' />
+                        <ProjectGalleryImg 
+                            src={image3}
+                            alt='nowoczesna łazienka, marmur, spiek Laminam, dekoracyjne lamele, jasny salon, podłoga w jodełkę w salonie, wielkoformatowe płyty w kuchni, marmur w łazience, wolnostojący kominek, projekt wnętrz Szczecin' />
                     </ProjectGalleryItem>
                     <ProjectGalleryItem className="item-4">
-                        <ProjectGalleryImg src={image4} alt='image4' />
+                        <ProjectGalleryImg
+                            src={image4}
+                            alt='nowoczesna łazienka, marmur, spiek Laminam, dekoracyjne lamele, jasny salon, podłoga w jodełkę w salonie, wielkoformatowe płyty w kuchni, marmur w łazience, wolnostojący kominek, projekt wnętrz Szczecin' />
                     </ProjectGalleryItem>
                     <ProjectGalleryItem className="item-5">
-                        <ProjectGalleryImg src={image5} alt='image5' />
+                        <ProjectGalleryImg
+                            src={image5}
+                            alt='nowoczesna łazienka, marmur, spiek Laminam, dekoracyjne lamele, jasny salon, podłoga w jodełkę w salonie, wielkoformatowe płyty w kuchni, marmur w łazience, wolnostojący kominek, projekt wnętrz Szczecin' />
                     </ProjectGalleryItem>
                     <ProjectGalleryItem className="item-6">
-                        <ProjectGalleryImg src={image6} alt='image6' />
+                        <ProjectGalleryImg
+                            src={image6}
+                            alt='nowoczesna łazienka, marmur, spiek Laminam, dekoracyjne lamele, jasny salon, podłoga w jodełkę w salonie, wielkoformatowe płyty w kuchni, marmur w łazience, wolnostojący kominek, projekt wnętrz Szczecin' />
                     </ProjectGalleryItem>
                     <ProjectGalleryItem className="item-7">
-                        <ProjectGalleryImg src={image7} alt='image7' />
+                        <ProjectGalleryImg
+                            src={image7}
+                            alt='nowoczesna łazienka, marmur, spiek Laminam, dekoracyjne lamele, jasny salon, podłoga w jodełkę w salonie, wielkoformatowe płyty w kuchni, marmur w łazience, wolnostojący kominek, projekt wnętrz Szczecin' />
                     </ProjectGalleryItem>
                     <ProjectGalleryItem className="item-8">
-                        <ProjectGalleryImg src={image8} alt='image8' />
+                        <ProjectGalleryImg
+                            src={image8}
+                            alt='nowoczesna łazienka, marmur, spiek Laminam, dekoracyjne lamele, jasny salon, podłoga w jodełkę w salonie, wielkoformatowe płyty w kuchni, marmur w łazience, wolnostojący kominek, projekt wnętrz Szczecin' />
                     </ProjectGalleryItem>
                     <ProjectGalleryItem className="item-9">
-                        <ProjectGalleryImg src={image9} alt='image9' />
+                        <ProjectGalleryImg
+                            src={image9}
+                            alt='nowoczesna łazienka, marmur, spiek Laminam, dekoracyjne lamele, jasny salon, podłoga w jodełkę w salonie, wielkoformatowe płyty w kuchni, marmur w łazience, wolnostojący kominek, projekt wnętrz Szczecin' />
                     </ProjectGalleryItem>
                     <ProjectGalleryItem className="item-10">
-                        <ProjectGalleryImg src={image10} alt='image10' />
+                        <ProjectGalleryImg
+                            src={image10}
+                            alt='nowoczesna łazienka, marmur, spiek Laminam, dekoracyjne lamele, jasny salon, podłoga w jodełkę w salonie, wielkoformatowe płyty w kuchni, marmur w łazience, wolnostojący kominek, projekt wnętrz Szczecin' />
                     </ProjectGalleryItem>
                     <ProjectGalleryItem className="item-11">
-                        <ProjectGalleryImg src={image11} alt='image11' />
+                        <ProjectGalleryImg
+                            src={image11}
+                            alt='nowoczesna łazienka, marmur, spiek Laminam, dekoracyjne lamele, jasny salon, podłoga w jodełkę w salonie, wielkoformatowe płyty w kuchni, marmur w łazience, wolnostojący kominek, projekt wnętrz Szczecin' />
                     </ProjectGalleryItem>
                     <ProjectGalleryItem className="item-12">
-                        <ProjectGalleryImg src={image12} alt='image12' />
+                        <ProjectGalleryImg
+                            src={image12}
+                            alt='nowoczesna łazienka, marmur, spiek Laminam, dekoracyjne lamele, jasny salon, podłoga w jodełkę w salonie, wielkoformatowe płyty w kuchni, marmur w łazience, wolnostojący kominek, projekt wnętrz Szczecin' />
                     </ProjectGalleryItem>
                     <ProjectGalleryItem className="item-13">
-                        <ProjectGalleryImg src={image13} alt='image13' />
+                        <ProjectGalleryImg
+                            src={image13}
+                            alt='nowoczesna łazienka, marmur, spiek Laminam, dekoracyjne lamele, jasny salon, podłoga w jodełkę w salonie, wielkoformatowe płyty w kuchni, marmur w łazience, wolnostojący kominek, projekt wnętrz Szczecin' />
                     </ProjectGalleryItem>
                     <ProjectGalleryItem className="item-14">
-                        <ProjectGalleryImg src={image14} alt='image14' />
+                        <ProjectGalleryImg
+                            src={image14}
+                            alt='nowoczesna łazienka, marmur, spiek Laminam, dekoracyjne lamele, jasny salon, podłoga w jodełkę w salonie, wielkoformatowe płyty w kuchni, marmur w łazience, wolnostojący kominek, projekt wnętrz Szczecin' />
                     </ProjectGalleryItem>
                     <ProjectGalleryItem className="item-15">
-                        <ProjectGalleryImg src={image15} alt='image15' />
+                        <ProjectGalleryImg
+                            src={image15}
+                            alt='nowoczesna łazienka, marmur, spiek Laminam, dekoracyjne lamele, jasny salon, podłoga w jodełkę w salonie, wielkoformatowe płyty w kuchni, marmur w łazience, wolnostojący kominek, projekt wnętrz Szczecin' />
                     </ProjectGalleryItem>
                     <ProjectGalleryItem className="item-16">
-                        <ProjectGalleryImg src={image16} alt='image16' />
+                        <ProjectGalleryImg
+                            src={image16}
+                            alt='nowoczesna łazienka, marmur, spiek Laminam, dekoracyjne lamele, jasny salon, podłoga w jodełkę w salonie, wielkoformatowe płyty w kuchni, marmur w łazience, wolnostojący kominek, projekt wnętrz Szczecin' />
                     </ProjectGalleryItem>
                     <ProjectGalleryItem className="item-17">
-                        <ProjectGalleryImg src={image17} alt='image17' />
+                        <ProjectGalleryImg
+                            src={image17}
+                            alt='nowoczesna łazienka, marmur, spiek Laminam, dekoracyjne lamele, jasny salon, podłoga w jodełkę w salonie, wielkoformatowe płyty w kuchni, marmur w łazience, wolnostojący kominek, projekt wnętrz Szczecin' />
                     </ProjectGalleryItem>
                     <ProjectGalleryItem className="item-18">
-                        <ProjectGalleryImg src={image18} alt='image18' />
+                        <ProjectGalleryImg
+                            src={image18}
+                            alt='nowoczesna łazienka, marmur, spiek Laminam, dekoracyjne lamele, jasny salon, podłoga w jodełkę w salonie, wielkoformatowe płyty w kuchni, marmur w łazience, wolnostojący kominek, projekt wnętrz Szczecin' />
                     </ProjectGalleryItem>
                     <ProjectGalleryItem className="item-19">
-                        <ProjectGalleryImg src={image19} alt='image19' />
+                        <ProjectGalleryImg
+                            src={image19}
+                            alt='nowoczesna łazienka, marmur, spiek Laminam, dekoracyjne lamele, jasny salon, podłoga w jodełkę w salonie, wielkoformatowe płyty w kuchni, marmur w łazience, wolnostojący kominek, projekt wnętrz Szczecin' />
                     </ProjectGalleryItem>
                     <ProjectGalleryItem className="item-20">
-                        <ProjectGalleryImg src={image20} alt='image20' />
+                        <ProjectGalleryImg
+                            src={image20}
+                            alt='nowoczesna łazienka, marmur, spiek Laminam, dekoracyjne lamele, jasny salon, podłoga w jodełkę w salonie, wielkoformatowe płyty w kuchni, marmur w łazience, wolnostojący kominek, projekt wnętrz Szczecin' />
                     </ProjectGalleryItem>
                 </ProjectGalleryGrid>
             </ProjectGallery>
@@ -149,7 +189,7 @@ const Project2Section = () => {
                         <ProjectOtherImg src={imageOther2} alt='Boazeria w salonie, styl Hamptons, projekt pod klucz, apartament nad morzem, aneks kuchenny, tapicerowany zagłówek, łóżko kontynentalne w sypialni, granatowy beżowy salon. projekt wnętrz apartamentu na wynajem. wiklinowy żyrandol' />
                         <ProjectOtherBtnWrapper>
                             <ButtonOtherProject
-                                to='project'
+                                to='project3'
                                 onMouseEnter={onHover}
                                 onMouseLeave={onHover}
                                 primary="true"
@@ -160,30 +200,16 @@ const Project2Section = () => {
                         </ProjectOtherBtnWrapper>
                     </ProjectOtherItem>
                     <ProjectOtherItem>
-                        <ProjectOtherImg src={imageOther3} alt='image14' />
+                        <ProjectOtherImg src={imageOther3} alt='nowoczesna kuchnia, luksusowy salon, kryształ, projekt wnętrza w stylu nowojorskim,czarne dodatki, sztuka, obraz na ścianie, klasyczne meble, antyczne meble w salonie' />
                         <ProjectOtherBtnWrapper>
                             <ButtonOtherProject
-                                to='project'
+                                to='project4'
                                 onMouseEnter={onHover}
                                 onMouseLeave={onHover}
                                 primary="true"
                                 bigger="true"
                                 fontbigger="true">
                                 dom #5
-                            </ButtonOtherProject>
-                        </ProjectOtherBtnWrapper>
-                    </ProjectOtherItem>
-                    <ProjectOtherItem>
-                        <ProjectOtherImg src={image15} alt='image15' />
-                        <ProjectOtherBtnWrapper>
-                            <ButtonOtherProject
-                                to='project'
-                                onMouseEnter={onHover}
-                                onMouseLeave={onHover}
-                                primary="true"
-                                bigger="true"
-                                fontbigger="true">
-                                dom #8
                             </ButtonOtherProject>
                         </ProjectOtherBtnWrapper>
                     </ProjectOtherItem>

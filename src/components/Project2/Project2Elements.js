@@ -11,6 +11,14 @@ export const ProjectHero = styled.div`
     margin: 0 auto;
 	padding: 0 5rem;
 	text-align: center;
+
+    @media screen and (max-width: 576px){
+        padding: 0 3rem;
+    }
+
+    @media screen and (max-width: 400px){
+        padding: 0;
+    }
 `
 
 export const ProjectH1 = styled.h1`
@@ -18,11 +26,20 @@ export const ProjectH1 = styled.h1`
     line-height: 6.8rem;
     font-family: 'Unica One',sans-serif;
     font-weight: 400;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
+
+    @media screen and (max-width: 768px) {
+        font-size: 4.8rem;
+        line-height: 5.8rem;
+    }
 `
 
 export const ProjectH2 = styled.h2`
 	font-size: 2rem;
+
+    @media screen and (max-width: 576px) {
+        padding: 0 1rem;
+    }
 `
 
 export const ProjectWrapper = styled.div`
@@ -44,6 +61,15 @@ export const ProjectTextWrapper = styled.div`
 	font-family: 'Oswald',cursive;
 	padding: 4rem;
 	border: 2px dashed var(--secondaryColor);
+
+    @media screen and (max-width: 576px) {
+        padding: 3rem;
+        font-size: 1.6rem;
+    }
+
+    @media screen and (max-width: 400px) {
+        padding: 2rem;
+    }
 `
 
 export const ProjectP = styled.p`
@@ -63,7 +89,7 @@ export const ProjectGallery = styled.div`
 
     @media screen and (max-width: 768px) {
         max-width: 720px;
-        margin: 3rem auto;
+        margin: 6rem auto;
         padding: 0 1rem;
     }
 
@@ -160,14 +186,6 @@ export const ProjectGalleryItem = styled.div`
 	display: flex;
     justify-content: center;
     overflow: hidden;
-
-	&:nth-child(odd) {
-		border: 1px solid var(--tertiaryColor);
-	}
-
-	&:nth-child(even) {
-		border: 1px solid var(--fontColor);
-	}
 `
 
 export const ProjectGalleryImg = styled.img`
@@ -182,34 +200,31 @@ export const ProjectOther = styled.div`
     min-height: 50rem;
     max-width: 140rem;
     margin: 0 auto;
-    padding: 8rem 0;
+    padding: 8rem 2rem;
     text-align: center;
-    border-top: 2px dashed var(--secondaryColor);
-    border-bottom: 2px dashed var(--secondaryColor);
+    background: #e5e5e5;
+
+    @media screen and (max-width: 576px) {
+        padding: 4rem 0;
+    }
 `
 
 export const ProjectOtherGrid = styled.div`
-    min-height: 50rem;
+    min-height: 55rem;
     display: grid;
-    grid-template-columns: repeat(4
+    grid-template-columns: repeat(3
 	, 1fr);
     grid-template-rows: 1fr;
     gap: 1rem;
 
     @media screen and (max-width: 768px) {
-        grid-template-columns: repeat(2
-		, 1fr);
-        grid-template-rows: 1fr 1fr;
-    }
-
-    @media screen and (max-width: 576px) {
-        grid-template-columns: 100%;
-        grid-template-rows: repeat(4, 35rem);
+        grid-template-columns: 60%;
+        grid-template-rows: repeat(3, 35rem);
         grid-template-areas:
             "item12"
             "item13"
-            "item14"
-            "item15";
+            "item14";
+        justify-content: center;
 
         .item-12 {
             grid-area: item12;
@@ -220,9 +235,10 @@ export const ProjectOtherGrid = styled.div`
         .item-14 {
             grid-area: item14;
         }
-        .item-15 {
-            grid-area: item15;
-        }
+    }
+
+     @media screen and (max-width: 576px) {
+        grid-template-columns: 80%;
     }
 `
 

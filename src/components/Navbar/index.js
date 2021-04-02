@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { BiMenuAltRight } from 'react-icons/bi';
-import { animationScroll as scroll } from 'react-scroll';
+// import { animationScroll as scroll } from 'react-scroll';
 import {
     Nav,
     NavbarContainer,
@@ -24,15 +24,15 @@ export const Navbar = ({ toggle }) => {
     //     window.addEventListener('scroll')
     // }, []);
 
-    const toggleHome = () => {
-        scroll.scrollToTop();
-    };
+    // const toggleHome = () => {
+    //     scroll.scrollToTop();
+    // };
 
     return (
         <>
             <Nav>
                 <NavbarContainer>
-                    <NavLogo to='/' onClick={toggleHome} alt='logo'>
+                    <NavLogo to='/' alt='logo'>
                         <NavIcon src={logo} alt='logo ZBK interiors' />
                     </NavLogo>
                     <MobileIcon onClick={toggle}>
@@ -40,7 +40,8 @@ export const Navbar = ({ toggle }) => {
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to="offer"
+                            <NavLinks
+                                to="offer"
                                 smooth={true}
                                 duration={500}
                                 spy={true}
@@ -50,7 +51,8 @@ export const Navbar = ({ toggle }) => {
                             >oferta</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="project"
+                            <NavLinks
+                                to="project"
                                 smooth={true}
                                 duration={500}
                                 spy={true}
@@ -60,7 +62,8 @@ export const Navbar = ({ toggle }) => {
                             >projekty</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="aboutUs"
+                            <NavLinks
+                                to="aboutUs"
                                 smooth={true}
                                 duration={500}
                                 spy={true}
@@ -70,7 +73,8 @@ export const Navbar = ({ toggle }) => {
                             >o mnie</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="contact"
+                            <NavLinks
+                                to="contact"
                                 smooth={true}
                                 duration={500}
                                 spy={true}

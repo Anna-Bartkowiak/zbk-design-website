@@ -28,9 +28,9 @@ export const Footer = () => {
                         </FooterP>
                         <FooterP>
                             <FooterLink
-                                href='mailto:zbkdesign@zbkdesign.pl'
+                                href='mailto:interiors@zbkinteriors.pl?subject=Zapytanie%20ofertowe&body=Dzień%20dobry,'
                                 target='_blank'
-                            >zbkdesign@zbkdesign.pl</FooterLink>
+                            >interiors@zbkinteriors.pl</FooterLink>
                         </FooterP>
                         <FooterP>
                             <FooterLink

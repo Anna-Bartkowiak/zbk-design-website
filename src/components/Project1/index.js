@@ -35,7 +35,7 @@ import image14 from '../../images/MainGallery/7dom11.jpg';
 import image15 from '../../images/MainGallery/7dom4.jpg';
 import imageOther1 from '../../images/MainGallery/11dom1.jpg';
 import imageOther2 from '../../images/MainGallery/flat_35m_MainGallery.jpg';
-import imageOther3 from '../../images/MainGallery/flat_65m_MainGallery.jpg';
+import imageOther3 from '../../images/MainGallery/house_140m_imgMainGallery.jpg';
 
 const Project1Section = () => {
 
@@ -59,49 +59,79 @@ const Project1Section = () => {
             <ProjectGallery>
                 <ProjectGalleryGrid>
                     <ProjectGalleryItem className="item-1">
-                        <ProjectGalleryImg src={image1} alt='image1' />
+                        <ProjectGalleryImg
+                            src={image1}
+                            alt='dom w stylu skandynawskim, salon z drewnianą zabudową, czarna lampa w jadalni,kuchnia w heksagony, jodełka na ścianie, czarno biała łazienka' />
                     </ProjectGalleryItem>
                     <ProjectGalleryItem className="item-2">
-                        <ProjectGalleryImg src={image2} alt='image2' />
+                        <ProjectGalleryImg
+                            src={image2}
+                            alt='dom w stylu skandynawskim, salon z drewnianą zabudową, czarna lampa w jadalni,kuchnia w heksagony, jodełka na ścianie, czarno biała łazienka' />
                     </ProjectGalleryItem>
                     <ProjectGalleryItem className="item-3">
-                        <ProjectGalleryImg src={image3} alt='image3' />
+                        <ProjectGalleryImg
+                            src={image3}
+                            alt='dom w stylu skandynawskim, salon z drewnianą zabudową, czarna lampa w jadalni,kuchnia w heksagony, jodełka na ścianie, czarno biała łazienka' />
                     </ProjectGalleryItem>
                     <ProjectGalleryItem className="item-4">
-                        <ProjectGalleryImg src={image4} alt='image4' />
+                        <ProjectGalleryImg
+                            src={image4}
+                            alt='dom w stylu skandynawskim, salon z drewnianą zabudową, czarna lampa w jadalni,kuchnia w heksagony, jodełka na ścianie, czarno biała łazienka' />
                     </ProjectGalleryItem>
                     <ProjectGalleryItem className="item-5">
-                        <ProjectGalleryImg src={image5} alt='image5' />
+                        <ProjectGalleryImg
+                            src={image5}
+                            alt='dom w stylu skandynawskim, salon z drewnianą zabudową, czarna lampa w jadalni,kuchnia w heksagony, jodełka na ścianie, czarno biała łazienka' />
                     </ProjectGalleryItem>
                     <ProjectGalleryItem className="item-6">
-                        <ProjectGalleryImg src={image6} alt='image6' />
+                        <ProjectGalleryImg
+                            src={image6}
+                            alt='dom w stylu skandynawskim, salon z drewnianą zabudową, czarna lampa w jadalni,kuchnia w heksagony, jodełka na ścianie, czarno biała łazienka' />
                     </ProjectGalleryItem>
                     <ProjectGalleryItem className="item-7">
-                        <ProjectGalleryImg src={image7} alt='image7' />
+                        <ProjectGalleryImg
+                            src={image7}
+                            alt='dom w stylu skandynawskim, salon z drewnianą zabudową, czarna lampa w jadalni,kuchnia w heksagony, jodełka na ścianie, czarno biała łazienka' />
                     </ProjectGalleryItem>
                     <ProjectGalleryItem className="item-8">
-                        <ProjectGalleryImg src={image8} alt='image8' />
+                        <ProjectGalleryImg
+                            src={image8}
+                            alt='dom w stylu skandynawskim, salon z drewnianą zabudową, czarna lampa w jadalni,kuchnia w heksagony, jodełka na ścianie, czarno biała łazienka' />
                     </ProjectGalleryItem>
                     <ProjectGalleryItem className="item-9">
-                        <ProjectGalleryImg src={image9} alt='image9' />
+                        <ProjectGalleryImg
+                            src={image9}
+                            alt='dom w stylu skandynawskim, salon z drewnianą zabudową, czarna lampa w jadalni,kuchnia w heksagony, jodełka na ścianie, czarno biała łazienka' />
                     </ProjectGalleryItem>
                     <ProjectGalleryItem className="item-10">
-                        <ProjectGalleryImg src={image10} alt='image10' />
+                        <ProjectGalleryImg
+                            src={image10}
+                            alt='dom w stylu skandynawskim, salon z drewnianą zabudową, czarna lampa w jadalni,kuchnia w heksagony, jodełka na ścianie, czarno biała łazienka' />
                     </ProjectGalleryItem>
                     <ProjectGalleryItem className="item-11">
-                        <ProjectGalleryImg src={image11} alt='image11' />
+                        <ProjectGalleryImg
+                            src={image11}
+                            alt='dom w stylu skandynawskim, salon z drewnianą zabudową, czarna lampa w jadalni,kuchnia w heksagony, jodełka na ścianie, czarno biała łazienka' />
                     </ProjectGalleryItem>
                     <ProjectGalleryItem className="item-12">
-                        <ProjectGalleryImg src={image12} alt='image12' />
+                        <ProjectGalleryImg
+                            src={image12}
+                            alt='dom w stylu skandynawskim, salon z drewnianą zabudową, czarna lampa w jadalni,kuchnia w heksagony, jodełka na ścianie, czarno biała łazienka' />
                     </ProjectGalleryItem>
                     <ProjectGalleryItem className="item-13">
-                        <ProjectGalleryImg src={image13} alt='image13' />
+                        <ProjectGalleryImg
+                            src={image13}
+                            alt='dom w stylu skandynawskim, salon z drewnianą zabudową, czarna lampa w jadalni,kuchnia w heksagony, jodełka na ścianie, czarno biała łazienka' />
                     </ProjectGalleryItem>
                     <ProjectGalleryItem className="item-14">
-                        <ProjectGalleryImg src={image14} alt='image14' />
+                        <ProjectGalleryImg
+                            src={image14}
+                            alt='dom w stylu skandynawskim, salon z drewnianą zabudową, czarna lampa w jadalni,kuchnia w heksagony, jodełka na ścianie, czarno biała łazienka' />
                     </ProjectGalleryItem>
                     <ProjectGalleryItem className="item-15">
-                        <ProjectGalleryImg src={image15} alt='image15' />
+                        <ProjectGalleryImg
+                            src={image15}
+                            alt='dom w stylu skandynawskim, salon z drewnianą zabudową, czarna lampa w jadalni,kuchnia w heksagony, jodełka na ścianie, czarno biała łazienka' />
                     </ProjectGalleryItem>
                 </ProjectGalleryGrid>
             </ProjectGallery>
@@ -129,7 +159,7 @@ const Project1Section = () => {
                         <ProjectOtherImg src={imageOther2} alt='Boazeria w salonie, styl Hamptons, projekt pod klucz, apartament nad morzem, aneks kuchenny, tapicerowany zagłówek, łóżko kontynentalne w sypialni, granatowy beżowy salon. projekt wnętrz apartamentu na wynajem. wiklinowy żyrandol' />
                         <ProjectOtherBtnWrapper>
                             <ButtonOtherProject
-                                to="project2"
+                                to="project3"
                                 onMouseEnter={onHover}
                                 onMouseLeave={onHover}
                                 primary="true"
@@ -140,30 +170,16 @@ const Project1Section = () => {
                         </ProjectOtherBtnWrapper>
                     </ProjectOtherItem>
                     <ProjectOtherItem className="item-14">
-                        <ProjectOtherImg src={imageOther3} alt='image14' />
+                        <ProjectOtherImg src={imageOther3} alt='nowoczesna kuchnia, luksusowy salon, kryształ, projekt wnętrza w stylu nowojorskim,czarne dodatki, sztuka, obraz na ścianie, klasyczne meble, antyczne meble w salonie' />
                         <ProjectOtherBtnWrapper>
                             <ButtonOtherProject
-                                to="project2"
+                                to="project4"
                                 onMouseEnter={onHover}
                                 onMouseLeave={onHover}
                                 primary="true"
                                 bigger="true"
                                 fontbigger="true">
                                 dom #5
-                            </ButtonOtherProject>
-                        </ProjectOtherBtnWrapper>
-                    </ProjectOtherItem>
-                    <ProjectOtherItem className="item-15">
-                        <ProjectOtherImg src={image15} alt='image15' />
-                        <ProjectOtherBtnWrapper>
-                            <ButtonOtherProject
-                                to="project2"
-                                onMouseEnter={onHover}
-                                onMouseLeave={onHover}
-                                primary="true"
-                                bigger="true"
-                                fontbigger="true">
-                                dom #8
                             </ButtonOtherProject>
                         </ProjectOtherBtnWrapper>
                     </ProjectOtherItem>

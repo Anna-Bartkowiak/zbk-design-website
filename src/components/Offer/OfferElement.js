@@ -8,7 +8,6 @@ export const OfferContainer = styled.div`
 
     @media screen and (max-width: 1000px) {
         margin: 10rem auto;
-        /* padding: 4rem 0; */
     }
 
     @media screen and (max-width: 576px) {
@@ -67,10 +66,6 @@ export const OfferH3 = styled.h3`
         padding: .7rem 0;
         margin-bottom: .7rem;
     }
-
-    /* @media screen and (max-width: 580px) {
-        font-size: 2.2rem;
-    } */
 `
 
 export const OfferP = styled.p`
@@ -94,7 +89,6 @@ export const OfferP = styled.p`
 
 export const OfferTabWrapper = styled.div`
     max-width: 110rem;
-    /* min-height: 50rem; */
     width: 100%;
     margin: 0 auto;
     padding: 0 12rem 12rem;
@@ -117,7 +111,7 @@ export const OfferTab = styled(Tab) `
     display: flex;
     justify-content: center;
     align-items: center;
-    background: var(--tertiaryColor);
+    background: var(--fontColor);
     white-space: no-wrap;
     padding: 1.6rem 2.6rem;
     color: var(--primaryColor);
@@ -135,12 +129,12 @@ export const OfferTab = styled(Tab) `
     }
 
     &.active {
-        background: var(--fontColor);
+        background: var(--tertiaryColor);
     }
 
     &:hover {
         transition: all 0.3s ease-in-out;
-        background: var(--fontColor);
+        background: var(--tertiaryColor);
     }
 
     @media screen and (max-width: 1000px) {
@@ -154,23 +148,14 @@ export const OfferTab = styled(Tab) `
     }
 
     @media screen and (max-width: 576px) {
-        width: 100%;
         padding: 1.4rem 1.6rem;
         font-weight: 400;
-
-        &:not(:last-child) {
-            margin-right: .1rem;
-        }
     }
 `
 
 export const OfferTabList = styled(TabList) `
     display: flex;
     flex-direction: row;
-
-    @media screen and (max-width: 576px) {
-        justify-content: center;
-    }
 `
 
 export const OfferTabs = styled(Tabs) `
