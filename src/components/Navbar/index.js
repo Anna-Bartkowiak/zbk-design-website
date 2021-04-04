@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { BiMenuAltRight } from 'react-icons/bi';
 // import { animationScroll as scroll } from 'react-scroll';
 import {

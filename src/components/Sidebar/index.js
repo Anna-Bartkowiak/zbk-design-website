@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import {
     SidebarContainer,
     SidebarLogo,
@@ -7,17 +7,16 @@ import {
     CloseIcon,
     SidebarWrapper,
     SidebarMenu,
-    SidebarLink,
-    SidebarRoute
+    SidebarLink
 } from './SidebarElements';
 import logo from '../../images/zuzanna_b_kaluc_logo.svg';
 
 const Sidebar = ({ isOpen, toggle }) => {
-    const [hover, setHover] = useState(false);
+    // const [hover, setHover] = useState(false);
 
-    const onHover = () => {
-        setHover(!hover);
-    };
+    // const onHover = () => {
+    //     setHover(!hover);
+    // };
 
     return (
         <SidebarContainer isOpen={isOpen} onClick={toggle}>

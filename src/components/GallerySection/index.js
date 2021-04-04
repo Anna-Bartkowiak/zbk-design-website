@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { ButtonGallery } from '../ButtonElement';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import {
     GalleryContainer,
     GalleryH2,
@@ -18,7 +18,6 @@ import {
 import image1 from '../../images/MainGallery/mainGallery1.jpg';
 import image2 from '../../images/MainGallery/mainGallery.jpg';
 import image3 from '../../images/MainGallery/house_140m_imgMainGallery.jpg';
-import image4 from '../../images/MainGallery/flat_65m_MainGallery.jpg';
 import image5 from '../../images/MainGallery/flat_35m_MainGallery.jpg';
 
 export const Gallery = () => {

@@ -1,5 +1,4 @@
 import styled, { createGlobalStyle } from 'styled-components';
-// import { ColorsVariables } from './components/Settings/fonts';
 
 const GlobalStyle = createGlobalStyle`
     :root {

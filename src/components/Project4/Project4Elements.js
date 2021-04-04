@@ -116,7 +116,7 @@ export const ProjectGalleryGrid = styled.div`
 
     @media screen and (max-width: 576px) {
         grid-template-columns: 100%;
-        grid-template-rows: repeat(8, 35rem);
+        grid-template-rows: repeat(11, 35rem);
         grid-template-areas:
             "item1"
             "item2"
@@ -124,7 +124,11 @@ export const ProjectGalleryGrid = styled.div`
             "item4"
             "item5"
             "item6"
-            "item8";
+            "item7"
+            "item8"
+            "item9"
+            "item10"
+            "item11";
 
         .item-1 {
             grid-area: item1;
