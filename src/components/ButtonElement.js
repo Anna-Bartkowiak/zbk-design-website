@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Link as LinkR} from 'react-router-dom';
+import { Link as LinkR } from 'react-router-dom';
 import { Link as LinkS } from 'react-scroll';
 
 export const Button = styled(LinkS) `
@@ -9,7 +9,6 @@ export const Button = styled(LinkS) `
     color: var(--secondaryColor);
     font-size: ${({ fontbigger }) => (fontbigger ? '1.9rem' : '1.7rem')};
     line-height: 1.9rem;
-    font-family: 'Oswald';
     font-weight: 300;
     outline: none;
     border: none;
@@ -31,7 +30,7 @@ export const ButtonGallery = styled(LinkR) `
     white-space: no-wrap;
     padding: 1.4rem 2.2rem;
     font-size: 1.9rem;
-    font-family: 'Unica One';
+    font-family: var(--fontFamilySecondary);
     font-weight: 300;
     outline: none;
     cursor: pointer;
@@ -58,7 +57,7 @@ export const ButtonOtherProject = styled(LinkR) `
     padding: 1.4rem 2.2rem;
     width: 100%;
     font-size: 1.9rem;
-    font-family: 'Unica One';
+    font-family: var(--fontFamilySecondary);
     font-weight: 300;
     outline: none;
     cursor: pointer;

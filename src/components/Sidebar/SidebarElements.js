@@ -15,6 +15,7 @@ export const SidebarContainer = styled.aside`
     transition: 0.3s ease-in-out;
     opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
     top: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
+    font-family: var(--fontFamilySecondary);
 `;
 
 export const SidebarLogo = styled(LinkRouter) `
@@ -57,11 +58,11 @@ export const SidebarMenu = styled.ul`
     display: grid;
     background: var(--primaryColor);
     grid-template-column: 1fr;
-    grid-template-rows: repeat(4, 10rem);
+    grid-template-rows: repeat(4, 6rem);
     text-align: center;
 
     @media screen and (max-width: 480px) {
-        grid-template-rows: repeat(4, 8rem);
+        grid-template-rows: repeat(4, 4rem);
     }
 `;
 
@@ -69,7 +70,7 @@ export const SidebarLink = styled(LinkScroll) `
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 2.4rem;
+    font-size: 2rem;
     text-decoration: none;
     list-style: none;
     transition: 0.2s ease-in-out;
@@ -85,7 +86,7 @@ export const SidebarLink = styled(LinkScroll) `
     transition: background-size .2s;
 
     &:hover {
-        background-size: 3px 10px;
+        background-size: 3px 7px;
     }
 `;
 
@@ -105,7 +106,6 @@ export const SidebarRoute = styled(LinkRouter) `
     padding: 10px 22px;
     color: var(--primaryColor);
     font-size: 1.6rem;
-    font-family: 'Oswald';
     font-weight: 300;
     outline: none;
     border: none;

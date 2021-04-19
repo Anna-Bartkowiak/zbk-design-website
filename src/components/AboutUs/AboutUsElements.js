@@ -79,8 +79,7 @@ export const AboutUsGrid = styled.div`
 `
 
 export const AboutUsP = styled.p`
-    font-family: 'Oswald', cursive;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 1.8rem;
     line-height: 2.4rem;
 `
@@ -133,7 +132,7 @@ export const AboutUsImg = styled.img`
 export const AboutUsH2 = styled.h2`
     font-size: 8rem;
     line-height: 8rem;
-    font-family: 'Unica One', sans-serif;
+    font-family: var(--fontFamilySecondary);
     font-weight: 400;
     margin-bottom: 5rem;
     text-align: center;
@@ -152,7 +151,7 @@ export const AboutUsH3 = styled.h3`
     font-size: 2.6rem;
     line-height: 2.8rem;
     padding: 1rem 0;
-    font-family: 'Unica One', sans-serif;
+    font-family: var(--fontFamilySecondary);
     margin-bottom: 1rem;
 
     @media screen and (max-width: 580px) {

@@ -72,10 +72,9 @@ export const FooterGrid = styled.div`
 `
 
 export const FooterContact = styled.div`
-    font-family: 'Oswald', cursive;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 2rem;
-    line-height: 3.5rem;
+    line-height: 3.2rem;
 
     @media screen and (max-width: 768px) {
         font-size: 1.8rem;
@@ -131,7 +130,6 @@ export const FooterCopyright = styled.div`
 `
 
 export const FooterCopyrightP = styled.p`
-    font-family: 'Oswald',cursive;
     font-size: 2rem;
     height: 100%;
     font-weight: 300;

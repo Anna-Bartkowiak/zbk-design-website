@@ -18,17 +18,16 @@ import {
     ProjectOtherImg,
     ProjectOtherBtnWrapper,
 } from './Project4Elements';
-import image1 from '../../images/MainGallery/house_140m_imgMainGallery.jpg';
-import image2 from '../../images/MainGallery/5dom1.jpg';
-import image3 from '../../images/MainGallery/5dom2.jpg';
-import image4 from '../../images/MainGallery/5dom3.jpg';
-import image5 from '../../images/MainGallery/5dom4.jpg';
-import image6 from '../../images/MainGallery/5dom5.jpg';
-import image7 from '../../images/MainGallery/5dom6.jpg';
-import image8 from '../../images/MainGallery/5dom7.jpg';
-import image9 from '../../images/MainGallery/5dom8.jpg';
-import image10 from '../../images/MainGallery/5dom9.jpg';
-import image11 from '../../images/MainGallery/5dom10.jpg';
+import image1 from '../../images/MainGallery/5dom1.jpg';
+import image2 from '../../images/MainGallery/5dom2.jpg';
+import image3 from '../../images/MainGallery/5dom3.jpg';
+import image4 from '../../images/MainGallery/5dom4.jpg';
+import image5 from '../../images/MainGallery/5dom5.jpg';
+import image6 from '../../images/MainGallery/5dom6.jpg';
+import image7 from '../../images/MainGallery/5dom7.jpg';
+import image8 from '../../images/MainGallery/5dom8.jpg';
+import image9 from '../../images/MainGallery/5dom9.jpg';
+import image10 from '../../images/MainGallery/5dom10.jpg';
 import imageOther1 from '../../images/MainGallery/7dom1.jpg';
 import imageOther2 from '../../images/MainGallery/mainGallery.jpg';
 import imageOther3 from '../../images/MainGallery/flat_35m_MainGallery.jpg';
@@ -106,11 +105,6 @@ const Project4Section = () => {
                     <ProjectGalleryItem className="item-10">
                         <ProjectGalleryImg
                             src={image10}
-                            alt='nowoczesna kuchnia, luksusowy salon, kryształ, projekt wnętrza w stylu nowojorskim, czarne dodatki, sztuka, obraz na ścianie, klasyczne meble, antyczne meble w salonie' />
-                    </ProjectGalleryItem>
-                    <ProjectGalleryItem className="item-11">
-                        <ProjectGalleryImg
-                            src={image11}
                             alt='nowoczesna kuchnia, luksusowy salon, kryształ, projekt wnętrza w stylu nowojorskim, czarne dodatki, sztuka, obraz na ścianie, klasyczne meble, antyczne meble w salonie' />
                     </ProjectGalleryItem>
                 </ProjectGalleryGrid>

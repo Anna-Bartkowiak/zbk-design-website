@@ -74,7 +74,7 @@ const Project2Section = () => {
                             alt='nowoczesna łazienka, marmur, spiek Laminam, dekoracyjne lamele, jasny salon, podłoga w jodełkę w salonie, wielkoformatowe płyty w kuchni, marmur w łazience, wolnostojący kominek, projekt wnętrz Szczecin' />
                     </ProjectGalleryItem>
                     <ProjectGalleryItem className="item-3">
-                        <ProjectGalleryImg 
+                        <ProjectGalleryImg
                             src={image3}
                             alt='nowoczesna łazienka, marmur, spiek Laminam, dekoracyjne lamele, jasny salon, podłoga w jodełkę w salonie, wielkoformatowe płyty w kuchni, marmur w łazience, wolnostojący kominek, projekt wnętrz Szczecin' />
                     </ProjectGalleryItem>

@@ -57,7 +57,7 @@ export const OfferH3 = styled.h3`
     font-size: 2.6rem;
     line-height: 2.8rem;
     padding: 1rem 0;
-    font-family: 'Unica One', sans-serif;
+    font-weight: 400;
     margin-bottom: 1rem;
 
     @media screen and (max-width: 1000px) {
@@ -69,7 +69,6 @@ export const OfferH3 = styled.h3`
 `
 
 export const OfferP = styled.p`
-    font-family: 'Oswald', cursive;
     font-size: 1.8rem;
     line-height: 2.8rem;
 
@@ -116,13 +115,13 @@ export const OfferTab = styled(Tab) `
     padding: 1.6rem 2.6rem;
     color: var(--primaryColor);
     font-size: 2rem;
-    font-weight: 300;
+    font-weight: 400;
     text-transform: uppercase;
-    font-family: 'Oswald';
     outline: none;
     border: none;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+    font-family: var(--fontFamilySecondary);
 
     &:not(:last-child) {
         margin-right: .3rem;
@@ -330,6 +329,7 @@ export const OfferGridNumber = styled.div`
     height: 100%;
     color: var(--fourthColor);
     border: 1px dotted var(--fourthColor);
+    font-family: var(--fontFamilySecondary);
 
     @media screen and (max-width: 576px) {
         font-size: 7rem;
@@ -341,7 +341,6 @@ export const OfferGridP = styled.p`
     flex-direction: column;
     justify-content: center;
     height: 100%;
-    font-family: 'Oswald',cursive;
     font-size: 1.8rem;
     line-height: 2.8rem;
     border: 1px solid var(--fourthColor);
@@ -349,11 +348,11 @@ export const OfferGridP = styled.p`
 
     span {
         color: var(--fourthColor);
-        font-family: 'Unica One',sans-serif;
+        font-family: var(--fontFamilySecondary);
         font-size: 3.5rem;
         line-height: 4.5rem;
-        text-transform: uppercase;
-        font-weight: 900;
+        /* text-transform: uppercase; */
+        font-weight: 700;
     }
 
     @media screen and (max-width: 576px) {

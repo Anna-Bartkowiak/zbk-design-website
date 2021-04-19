@@ -24,7 +24,7 @@ export const ProjectHero = styled.div`
 export const ProjectH1 = styled.h1`
 	font-size: 5.8rem;
     line-height: 6.8rem;
-    font-family: 'Unica One',sans-serif;
+    font-family: var(--fontFamilySecondary);
     font-weight: 400;
     padding-bottom: 3rem;
 
@@ -36,6 +36,7 @@ export const ProjectH1 = styled.h1`
 
 export const ProjectH2 = styled.h2`
 	font-size: 2rem;
+    font-family: var(--fontFamilySecondary);
 
     @media screen and (max-width: 576px) {
         padding: 0 1rem;
@@ -58,9 +59,9 @@ export const ProjectTextWrapper = styled.div`
     align-items: center;
     flex-direction: column;
 	font-size: 2rem;
-	font-family: 'Oswald',cursive;
 	padding: 4rem;
 	border: 2px dashed var(--secondaryColor);
+    font-weight: 300;
 
     @media screen and (max-width: 576px) {
         padding: 3rem;

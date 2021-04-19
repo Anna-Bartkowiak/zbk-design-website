@@ -38,6 +38,7 @@ export const HeroH1 = styled.h1`
     font-size: 5.8rem;
     margin-bottom: 0;
     z-index: 1;
+    font-family: var(--fontFamilySecondary);
 
     @media screen and (max-width: 480px) {
         top: 22%;
@@ -85,7 +86,6 @@ export const HeroGuotation = styled.div`
     color: var(--secondaryColor);
     font-style: oblique;
     background-color: var(--fourthColor);
-    font-family: 'Oswald',cursive;
     font-weight: 300;
 
     @media screen and (max-width: 1000px) {

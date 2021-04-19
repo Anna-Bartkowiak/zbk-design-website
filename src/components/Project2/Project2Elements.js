@@ -24,7 +24,7 @@ export const ProjectHero = styled.div`
 export const ProjectH1 = styled.h1`
 	font-size: 5.8rem;
     line-height: 6.8rem;
-    font-family: 'Unica One',sans-serif;
+    font-family: var(--fontFamilySecondary);
     font-weight: 400;
     padding-bottom: 3rem;
 
@@ -36,6 +36,7 @@ export const ProjectH1 = styled.h1`
 
 export const ProjectH2 = styled.h2`
 	font-size: 2rem;
+    font-family: var(--fontFamilySecondary);
 
     @media screen and (max-width: 576px) {
         padding: 0 1rem;
@@ -58,9 +59,9 @@ export const ProjectTextWrapper = styled.div`
     align-items: center;
     flex-direction: column;
 	font-size: 2rem;
-	font-family: 'Oswald',cursive;
 	padding: 4rem;
 	border: 2px dashed var(--secondaryColor);
+    font-weight: 300;
 
     @media screen and (max-width: 576px) {
         padding: 3rem;
@@ -110,13 +111,9 @@ export const ProjectGalleryGrid = styled.div`
 		, 1fr);
     }
 
-    @media screen and (max-width: 768px) {
-        grid-template-rows: 31rem 31rem 31rem 31rem 31rem;
-    }
-
     @media screen and (max-width: 576px) {
         grid-template-columns: 100%;
-        grid-template-rows: repeat(15, 35rem);
+        grid-template-rows: repeat(20, 1fr);
         grid-template-areas:
             "item1"
             "item2"
@@ -132,7 +129,12 @@ export const ProjectGalleryGrid = styled.div`
             "item12"
             "item13"
             "item14"
-            "item15";
+            "item15"
+            "item16"
+            "item17"
+            "item18"
+            "item19"
+            "item20";
 
         .item-1 {
             grid-area: item1;
@@ -178,6 +180,21 @@ export const ProjectGalleryGrid = styled.div`
         }
         .item-15 {
             grid-area: item15;
+        }
+        .item-16 {
+            grid-area: item16;
+        }
+        .item-17 {
+            grid-area: item17;
+        }
+        .item-18 {
+            grid-area: item18;
+        }
+        .item-19 {
+            grid-area: item19;
+        }
+        .item-20 {
+            grid-area: item20;
         }
     }
 `

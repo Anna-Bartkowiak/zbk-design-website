@@ -24,7 +24,7 @@ export const ProjectHero = styled.div`
 export const ProjectH1 = styled.h1`
 	font-size: 5.8rem;
     line-height: 6.8rem;
-    font-family: 'Unica One',sans-serif;
+    font-family: var(--fontFamilySecondary);
     font-weight: 400;
     padding-bottom: 3rem;
 
@@ -36,6 +36,7 @@ export const ProjectH1 = styled.h1`
 
 export const ProjectH2 = styled.h2`
 	font-size: 2rem;
+    font-family: var(--fontFamilySecondary);
 
     @media screen and (max-width: 576px) {
         padding: 0 1rem;
@@ -58,9 +59,9 @@ export const ProjectTextWrapper = styled.div`
     align-items: center;
     flex-direction: column;
 	font-size: 2rem;
-	font-family: 'Oswald',cursive;
 	padding: 4rem;
 	border: 2px dashed var(--secondaryColor);
+    font-weight: 300;
 
     @media screen and (max-width: 576px) {
         padding: 3rem;
@@ -102,7 +103,7 @@ export const ProjectGalleryGrid = styled.div`
 	display: grid;
     grid-template-columns: repeat(3
 	, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     gap: 1rem;
 
     @media screen and (max-width: 1000px) {
@@ -111,12 +112,12 @@ export const ProjectGalleryGrid = styled.div`
     }
 
     @media screen and (max-width: 768px) {
-        grid-template-rows: 31rem 31rem 31rem;
+        /* grid-template-rows: 31rem 31rem 31rem; */
     }
 
     @media screen and (max-width: 576px) {
         grid-template-columns: 100%;
-        grid-template-rows: repeat(11, 35rem);
+        grid-template-rows: repeat(10, 1fr);
         grid-template-areas:
             "item1"
             "item2"
@@ -127,8 +128,7 @@ export const ProjectGalleryGrid = styled.div`
             "item7"
             "item8"
             "item9"
-            "item10"
-            "item11";
+            "item10";
 
         .item-1 {
             grid-area: item1;
@@ -159,22 +159,6 @@ export const ProjectGalleryGrid = styled.div`
         }
 		.item-10 {
             grid-area: item10;
-        }
-        .item-11 {
-            grid-area: item11;
-        }
-        .item-12 {
-            grid-area: item12;
-        }
-        .item-13 {
-            grid-area: item13;
-        }
-        .item-14 {
-            grid-area: item14;
-        }
-        .item-15 {
-            grid-area: item15;
-        }
     }
 `
 

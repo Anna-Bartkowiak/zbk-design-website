@@ -52,7 +52,7 @@ const Project1Section = () => {
                 <ProjectH2>Dom w Mierzynie, pow 175 m2</ProjectH2>
                 <ProjectWrapper>
                     <ProjectTextWrapper>
-                        <ProjectP>Bazę dla aranżacji wnętrz stanowią wysokiej jakości materiały wykończeniowe: dębowy, naturalny fornir , płytki o małych formatach i piękna olejowana drewniana podłoga. Połączenie stonowanej, neutralnej kolorystyki z intrygującymi energetycznymi akcentami <span>ubiera ten salon w stylu skandynawskim</span>. Zgodnie z oczekiwaniami właścicieli powstało ciepłe i  <span>dynamiczne wnętrze w duchu hygge</span>. Na uwagę zasługują fakt że wiele elementów wystroju zostało zaprojektowanych specjalnie na potrzeby tego domu, aby miał on jak najbardziej osobisty i zindywidualizowany charakter.</ProjectP>
+                        <ProjectP>Bazę dla aranżacji wnętrz stanowią wysokiej jakości materiały wykończeniowe: dębowy, naturalny fornir, płytki o małych formatach i piękna olejowana drewniana podłoga. Połączenie stonowanej, neutralnej kolorystyki z intrygującymi energetycznymi akcentami <span>ubiera ten salon w stylu skandynawskim</span>. Zgodnie z oczekiwaniami właścicieli powstało ciepłe i  <span>dynamiczne wnętrze w duchu hygge</span>. Na uwagę zasługują fakt że wiele elementów wystroju zostało zaprojektowanych specjalnie na potrzeby tego domu, aby miał on jak najbardziej osobisty i zindywidualizowany charakter.</ProjectP>
                     </ProjectTextWrapper>
                 </ProjectWrapper>
             </ProjectHero>

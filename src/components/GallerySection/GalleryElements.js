@@ -28,7 +28,7 @@ export const GalleryWrapper = styled.div``
 export const GalleryH2 = styled.h2`
     font-size: 5.8rem;
     line-height: 6.8rem;
-    font-family: 'Unica One', sans-serif;
+    font-family: var(--fontFamilySecondary);
     font-weight: 400;
     padding-bottom: 3rem;
 
@@ -157,6 +157,7 @@ export const GalleryH3 = styled.h3`
     background-repeat: repeat-x;
     padding-bottom: .8rem;
     background-size: 3px 18px;
+    font-family: var(--fontFamilySecondary);
 
     @media screen and (max-width: 1000px) {
         font-size: 2.6rem;
@@ -173,28 +174,18 @@ export const GalleryH3 = styled.h3`
 `
 
 export const GalleryH4 = styled.h4`
-    font-size: 1.6rem;
-    padding: 1rem 0;
+    font-size: 1.4rem;
+    padding: .8rem 0;
+    font-weight: 400;
 
     @media screen and (max-width: 1000px) {
-        font-size: 1.5rem;
-        padding: .8rem 0;
-    }
-
-    @media screen and (max-width: 768px) {
         font-size: 1.2rem;
         padding: .4rem 0;
     }
-
-    @media screen and (max-width: 576px) {
-        font-size: 1.4rem;
-        padding: .8rem 0;
-    }
 `
 export const GalleryP = styled.p`
-    font-family: 'Oswald',cursive;
     padding: 2rem 0 6rem;
-    font-weight: 300;
+    font-weight: 400;
 
     @media screen and (max-width: 1000px) {
         padding: 1.5rem 0 3.5rem;

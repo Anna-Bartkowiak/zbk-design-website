@@ -7,6 +7,8 @@ const GlobalStyle = createGlobalStyle`
         --secondaryColor: #e5e5e5;
         --tertiaryColor: #c08d17;
         --fourthColor: #928165;
+        --fontFamilyPrimary: 'Roboto', sans-serif;
+        --fontFamilySecondary: 'Unica One', sans-serif;
     }
 
     * {
@@ -22,7 +24,7 @@ const GlobalStyle = createGlobalStyle`
     body {
         background-color: var(--primaryColor);
         color: var(--fontColor);
-        font-family: 'Unica One', 'Oswald', sans-serif;
+        font-family: var(--fontFamilyPrimary);
         font-weight: 400;
     }
 `
